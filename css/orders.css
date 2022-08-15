@@ -1,0 +1,15 @@
+@media (max-width: 719px) {
+    .account-block__nav {
+        display: none;
+    }
+    .account-block__content {
+        display: block;
+        width: 100%;
+    }
+    .content-title__icon {
+        display: none;
+    }
+    .content-title__h1 {
+        text-align: center;
+    }
+}

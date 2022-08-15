@@ -2,7 +2,7 @@
 <html lang="en-GB" data-platform="desktop" data-store-code="ROW" data-country-code="UA" data-gender="men">
 <head>
     <meta charset="UTF-8">
-    <title>Men's Clothes | Shop for Men's Fashion | ASOS</title>
+    <title>ASOS | Online Shopping for the Latest Clothes & Fashion</title>
     <meta name="description" content="The ASOS Black Friday sale has arrived! Check out our amazing deals across clothing, shoes &amp; accessories. Offers last until Cyber Monday on 2 December. Shop now at ASOS. ">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/reset.css">
@@ -36,10 +36,10 @@
                         </a>
                         <ul class="header-categories">
                             <li class="header-categories__item">
-                                <a href="">WOMEN</a>
+                                <a href="women.php">WOMEN</a>
                             </li>
-                            <li class="header-categories__item header-categories__item_selected">
-                                <a href="">MEN</a>
+                            <li class="header-categories__item">
+                                <a href="men.php">MEN</a>
                             </li>
                         </ul>
                         <form class="header-search" action="" method="get">
@@ -69,9 +69,9 @@
                                 <div class="header-dropdown__container">
                                     <div class="header-dropdown__top">
                                     <span class="header-dropdown__auth">
-                                        <a class="header-dropdown__login">Sign In</a>
+                                        <a class="header-dropdown__login" href="my-account.php">Sign In</a>
                                         <div class="header-dropdown__separator"></div>
-                                        <a class="header-dropdown__register">Join</a>
+                                        <a class="header-dropdown__register" href="my-account.php">Join</a>
                                     </span>
                                     <button class="header-dropdown__close">
                                         <span></span>

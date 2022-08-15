@@ -1,0 +1,25 @@
+@media (max-width: 719px) {
+    .account-block__nav {
+        display: none;
+    }
+    .account-block__content {
+        display: block;
+        width: 100%;
+    }
+    .content-title__icon {
+        display: none;
+    }
+    .content-title__h1 {
+        text-align: center;
+    }
+}
+.no-orders__icon {
+    display: inline-block;
+    height: 40px;
+    padding: calc(4 * 4px) calc(6 * 4px) calc(6 * 4px);
+    padding-top: calc(6 * 4px);
+}
+.no-orders__p {
+    padding-top: calc(4 * 4px);
+    padding-bottom: calc(6 * 4px);
+}

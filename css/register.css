@@ -1,0 +1,984 @@
+.auth-main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    min-width: 540px;
+    max-width: 650px;
+  }
+  .auth-main__header {
+    width: 100%;
+    max-width: 720px;
+    min-width: 540px;
+    text-align: center;
+    padding: 64px 0 25px 1px;
+  }
+  .home {
+    color: #222;
+    display: inline-block;
+    width: 93px;
+    height: 28px;
+    float: none;
+  }
+  .home > img {
+    border: 0;
+    width: 93px;
+    height: 28px;
+  }
+  .auth-main > .container {
+    background-color: #fff;
+    padding-top: 1px;
+    position: relative;
+  }
+
+  .info-centre {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow-y: visible;
+}
+.info-centre {
+    margin-bottom: 31px;
+}
+.info {
+    padding: 0 25px 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.info {
+    margin-bottom: 0px;
+}
+.signin-options {
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.signin-options {
+    padding-bottom: 6px;
+}
+.info-centre .title {
+    margin: 0 2.5% 0 2.5%;
+    max-width: 95%;
+    text-transform: none;
+    line-height: 33px;
+    font-size: 25px;
+}
+.signin-options .title {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    width: 50%;
+    border-bottom: 2px solid #f1f1f1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 0;
+    padding: 20px 0 17px;
+    position: relative;
+}
+.signin-options .title {
+    text-decoration: none;
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.7;
+}
+.title.active {
+    border-bottom: 2px solid #0770cf;
+}
+.title:first-of-type::after {
+    content: " ";
+    height: 25px;
+    width: 2px;
+    position: absolute;
+    right: 0px;
+    top: 14px;
+    background: #2d2d2d;
+    opacity: .1;
+}
+div.signin-options div.title a {
+    border-bottom: 0px !important;
+    color: #767676;
+}
+div.clear {
+    height: 1px;
+    clear: both;
+    width: 100%;
+}
+div.info-centre h2.qa-subtitle {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2.3px;
+}
+div.info-centre h2.qa-subtitle {
+    margin: 40px auto 40px;
+}
+.options {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.options .social-links-container {
+    margin: 0 auto;
+    height: 150px;
+}
+.options.three-buttons .social-links-container {
+    min-width: 264px;
+    height: 50px;
+}
+#social-signin-list, #social-register-list {
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    margin-top: 0;
+}
+li.social-register {
+    height: 50px;
+    display: inline-block;
+    position: relative;
+}
+.options.three-buttons .social-links-container.social-buttons-icon-with-text li.social-register {
+    width: 31.3%;
+    margin-right: 1.3%;
+}
+.options a, .options a:hover {
+    text-decoration: none;
+}
+.options .social-links-container .social-link {
+    float: left;
+    position: relative;
+    height: 50px;
+    max-width: 320px;
+}
+.options .social-links-container.social-buttons-icon-with-text .social-link {
+    border: solid 2px #ddd;
+    color: #2d2d2d;
+}
+.options.three-buttons .social-links-container .social-link {
+    width: 100%;
+}
+.options .social-links-container .social-link .connect {
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -moz-opacity: .9;
+    filter: alpha(opacity=90);
+    opacity: .9;
+}
+.options .social-links-container .social-link .connect {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+}
+.options .social-links-container .social-link .connect .icon {
+    background-position: center;
+}
+.options .social-links-container.social-buttons-icon-with-text .social-link .connect .icon {
+    background-size: 18px;
+}
+.options .social-links-container .social-link .connect.google .icon {
+    background-image: url(../img/google.svg);
+}
+.options .social-links-container .social-link .connect.apple .icon {
+    background-image: url(../img/apple.svg);
+}
+.options .social-links-container .social-link .connect.facebook .icon {
+    background-image: url(../img/facebook.png);
+}
+.options .social-links-container .social-link .connect .icon {
+    background-repeat: no-repeat;
+    background-position: 100% center;
+    width: 35px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    padding-left: 7px;
+}
+.options .social-links-container .social-link .connect .text {
+    padding: 0;
+    position: relative;
+}
+.options .social-links-container .social-link .connect .text span {
+    color: #fff;
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .4px;
+    height: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    letter-spacing: 2px;
+}
+.options .social-links-container .social-link .connect.twitter .text span, .options .social-links-container .social-link .connect.facebook .text span, .options .social-links-container .social-link .connect.google .text span, .options .social-links-container .social-link .connect.apple .text span {
+    color: #2d2d2d;
+    letter-spacing: .6px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+}
+#registration-subtitle {
+    margin-top: 20px;
+}
+div.info-centre p.subtitle {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .4px;
+    max-width: 100%;
+    padding: 0 10px;
+    margin: 0;
+}
+div.info-centre p.subtitle {
+    margin: 24px 0;
+}
+.info-centre p.subtitle {
+    margin: 0;
+}
+/* Register Form *Start* */
+
+.tran1 {
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    animation-fill-mode: backwards;
+}
+div.form {
+    margin: 50px auto 0;
+    padding: 0 6% 0 6%;
+    width: 88%;
+    border: none;
+}
+.register div.form {
+    max-height: 0;
+    overflow: hidden;
+}
+div.form {
+    max-height: 2000px;
+}
+div.form.form-register {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: inherit;
+}
+h2.qa-use-email {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2.3px;
+}
+h2.qa-use-email {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+div.form h2.qa-use-email.last-child {
+    margin: 15px 0 40px 0;
+}
+div.form.form-register h2.qa-use-email {
+    padding-bottom: 5px;
+}
+.register div.form form {
+    border-top: 1px solid #eee;
+    position: relative;
+    padding-top: 50px;
+}
+div.form form {
+    border-top: 0px;
+}
+div.form.form-register form {
+    padding-top: 0px;
+    width: 360px;
+    margin: 0 auto;
+}
+div.form fieldset {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    padding-bottom: 50px;
+}
+fieldset {
+    padding-bottom: 10px;
+}
+div.form.form-register fieldset {
+    margin-top: 0px;
+}
+.screenreader {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+legend {
+    border: 0;
+    padding: 0;
+    white-space: normal;
+}
+div.form fieldset div.field {
+    width: 57%;
+    margin: 0 auto 19px;
+    text-align: left;
+    position: relative;
+    padding: 0 22%;
+}
+div.form.form-register fieldset div.field {
+    width: 100%;
+    padding: 0;
+}
+.gender {
+    max-height: 70px;
+}
+div.form fieldset div.field label {
+    width: 100%;
+    margin: 0 3% 11px 0;
+    min-width: 20%;
+    font-family: Tahoma,Geneva,sans-serif;
+    float: left;
+    clear: both;
+    color: #2d2d2d;
+}
+fieldset div.field label {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: .4px;
+    color: #767676;
+    letter-spacing: 2px;
+}
+fieldset div.field label:not(.checkbox) {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+fieldset div.field>label:not(.checkbox):after {
+    content: ":";
+    width: auto;
+    color: #767676;
+}
+div.form fieldset div.field div.input-wrapper {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.eac-input-wrap {
+    display: block;
+    position: relative;
+    font-size: 14px;
+    width: 100%;
+}
+div.form fieldset div.field input {
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+div.form fieldset div.field input:not([type=checkbox]) {
+    width: 100%;
+    float: left;
+    outline: none;
+    border: 1px solid #767676;
+    font-size: .975em;
+}
+body fieldset div.field input:not(.checkbox) {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: .4px;
+}
+.eac-sugg {
+    color: #767676;
+    display: block;
+    box-sizing: content-box;
+    height: 49.7969px;
+    line-height: 23.8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: futura-pt, Tahoma, Geneva, Verdana, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    position: absolute;
+    top: 0px;
+    left: 11px;
+}
+.eac-cval {
+    visibility: hidden;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    display: inline-block;
+    font-family: futura-pt, Tahoma, Geneva, Verdana, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+}
+
+div.form fieldset div.field span.hint {
+    clear: both;
+    padding-top: 6px;
+    color: #767676;
+    display: block;
+    font-size: 12px;
+}
+div.form fieldset div.field span.hint {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: .4px;
+}
+.qa-reveal, .qa-hide {
+    position: relative;
+    float: right;
+    margin-top: -33px;
+    margin-right: 6px;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.7;
+    letter-spacing: 1.7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2d2d2d;
+}
+
+.hidden {
+    display: none;
+}
+div.form fieldset div.select-list {
+    height: 45px;
+    overflow: hidden;
+    background: url(../images/cf46f77….png) no-repeat right;
+    background-color: #fff;
+    background-size: 20px 7px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+div.form fieldset div.field div.subfield {
+    width: 21%;
+    float: left;
+    margin-right: 4%;
+}
+div.form div.field div.select-list {
+    background: url(../img/selected-list-arrow.png) no-repeat right;
+    background-color: #fff;
+    background-size: 18px 7px;
+}
+div.form fieldset div.field select {
+    height: 45px;
+}
+div.form fieldset div.field select {
+    width: 100%;
+    float: left;
+    outline: none;
+    border: 1px solid #767676;
+    font-size: .975em;
+}
+div.form fieldset div.select-list select {
+    background: transparent;
+    padding: 7px 10px;
+    border-radius: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    text-indent: 0.01px;
+    text-overflow: "";
+}
+div.form fieldset div.field div.subfield.long-subfield {
+    width: 50%;
+}
+div.form fieldset div.field div.subfield.last-subfield {
+    margin-right: 0;
+}
+div.form fieldset div.field legend {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #767676;
+    letter-spacing: 2px;
+    font-size: 14px;
+    line-height: 1.7;
+}
+div.form fieldset div.field legend span.optional {
+    display: none;
+    color: #767676;
+    margin-left: 5px;
+}
+div.form fieldset div.field legend:after {
+    content: ":";
+    width: auto;
+    color: #767676;
+}
+div.form fieldset div.field div.tickbox-container {
+    width: 48%;
+    border: 0px solid #767676;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 0;
+    min-height: 20px;
+    padding: 10px 0;
+    text-align: center;
+    cursor: pointer;
+}
+html.layout-v2 body fieldset div.field div.tickbox-container {
+    border: 0;
+    padding: 5px 0;
+    width: auto;
+    margin-right: 55px;
+    background-image: url(../img/tickbox.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 22px;
+}
+html body fieldset div.field div.tickbox-container.selected  {
+    border: 0;
+    padding: 5px 0;
+    background-image: url(../img/tickbox-selected.png);
+}
+div.form fieldset div.field label.radio {
+    width: auto;
+    margin-right: 0;
+    margin-left: 2%;
+    text-align: left;
+    min-width: 0;
+    margin-right: 5%;
+}
+div.form fieldset div.field div.tickbox-container.selected label {
+    color: #2d2d2d;
+}
+.hidden-radio {
+    opacity: 0;
+    display: none;
+}
+fieldset div.gender input.hidden-radio {
+    height: 0px;
+}
+div.form fieldset div.field label, div.form fieldset div.field label.checkbox {
+    width: 100%;
+    margin: 0 3% 11px 0;
+    min-width: 20%;
+    font-family: Tahoma,Geneva,sans-serif;
+    float: left;
+    clear: both;
+    color: #2d2d2d;
+}
+html.layout-v2 body fieldset div.field label, html.layout-v2 body div.form fieldset div.field label.checkbox, div.form html.layout-v2 body fieldset div.field label.checkbox {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: .4px;
+    color: #767676;
+    letter-spacing: 2px;
+}
+html.layout-v2 body fieldset div.field label:not(.checkbox) {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+div.form fieldset div.field label.radio, div.form fieldset div.field label.checkbox {
+    width: auto;
+    margin-right: 0;
+    margin-left: 2%;
+    text-align: left;
+    min-width: 0;
+    margin-right: 5%;
+}
+div.form fieldset div.field div.tickbox-container label {
+    font-weight: normal;
+    cursor: pointer;
+    float: none;
+    word-wrap: break-word;
+    color: #767676;
+}
+html.layout-v2 body fieldset div.field div.tickbox-container label.radio, html.layout-v2 body div.form fieldset div.field div.tickbox-container label.checkbox, div.form html.layout-v2 body fieldset div.field div.tickbox-container label.checkbox {
+    margin-left: 35px;
+    text-transform: capitalize;
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .4px;
+    margin-right: 0px;
+}
+fieldset div.field input:not([type=checkbox]).radio {
+    width: auto;
+    margin-top: 4px;
+}
+div.form fieldset .checkbox-container {
+    float: left;
+    margin: 4px 0 0;
+}
+div.form fieldset .checkbox-container.consent {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 0 0 0;
+    box-sizing: border-box;
+}
+html body fieldset {
+    padding-bottom: 10px;
+}
+html body div#content #main div.container div.form.form-register fieldset {
+    margin-top: 0px;
+}
+div.form.form-register fieldset .checkbox-container.consent fieldset {
+    width: 100%;
+}
+.col-md-6, .col-xs-12, .col-md-6, .col-md-3 {
+    display: flex;
+}
+.col-xs-12 {
+    width: 100%;
+}
+.checkbox-container.consent .qa-contact-preferences {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2d2d2d;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 2px;
+    display: block;
+}
+.container-all-checkbox {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.flex-wrapper {
+    flex-wrap: wrap;
+}
+.col-md-6, .col-xs-12, .col-md-6, .col-md-3 {
+    display: flex;
+}
+.col-xs-12 {
+    width: 100%;
+}
+.col-md-8 {
+    width: 66.6666666667%;
+}
+.checkbox-container.consent .qa-preferences-message {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    color: #2d2d2d;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0;
+    display: inline-block;
+    max-width: 360px;
+    float: left;
+    padding-right: 5px;
+}
+.all-check-multiple-checkboxes {
+    padding-bottom: 10px;
+}
+.all-check {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+}
+.qa-all-pref-label-all, .qa-all-pref-label-clear {
+    font-size: 14px;
+    border: none;
+    background-color: #eee;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 6px;
+    letter-spacing: .6px;
+    min-width: 112px;
+}
+.flex-wrapper {
+    flex-wrap: wrap;
+}
+
+.col-md-6, .col-xs-12, .col-md-6, .col-md-3 {
+    display: flex;
+}
+.col-xs-12 {
+    width: 100%;
+}
+.width100pc {
+    width: 100%;
+}
+.container-checkbox {
+    position: relative;
+    margin-bottom: 18px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+    height: 24px;
+    width: 100%;
+}
+.checkbox-label {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: .6px;
+    color: #2d2d2d;
+    font-family: futura-pt;
+    font-weight: 700;
+    padding-top: 3px;
+    text-transform: initial;
+}
+.container-checkbox input, .container-checkbox div.form fieldset div.field input:not([type=checkbox]).checkbox, div.form fieldset div.field .container-checkbox input:not([type=checkbox]).checkbox, .container-checkbox div.form fieldset div.field select.checkbox, div.form fieldset div.field .container-checkbox select.checkbox {
+    cursor: pointer;
+    opacity: 0;
+}
+.checkmark {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 24px;
+    width: 24px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: solid 1px #777;
+}
+.container-checkbox input:checked~.checkmark, .container-checkbox div.form fieldset div.field input.checkbox:checked:not([type=checkbox])~.checkmark, div.form fieldset div.field .container-checkbox input.checkbox:checked:not([type=checkbox])~.checkmark, .container-checkbox div.form fieldset div.field select.checkbox:checked~.checkmark, div.form fieldset div.field .container-checkbox select.checkbox:checked~.checkmark {
+    background-color: #fff;
+    border: solid 1px #0770cf;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container-checkbox .checkmark:after {
+    left: 10px;
+    top: 1px;
+    width: 4px;
+    height: 16px;
+    border: solid #2d2d2d;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.container-checkbox input:checked~.checkmark:after, .container-checkbox div.form fieldset div.field input.checkbox:checked:not([type=checkbox])~.checkmark:after, div.form fieldset div.field .container-checkbox input.checkbox:checked:not([type=checkbox])~.checkmark:after, .container-checkbox div.form fieldset div.field select.checkbox:checked~.checkmark:after, div.form fieldset div.field .container-checkbox select.checkbox:checked~.checkmark:after {
+    display: block;
+}
+fieldset div.submit {
+    text-align: left;
+}
+
+div.form fieldset div.submit {
+    margin: 15px 0 15px;
+    text-align: center;
+}
+div.form fieldset div.submit input {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background: #2d2d2d;
+    color: #fff;
+    border: 0;
+    height: 36px;
+    min-width: 200px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Tahoma,Geneva,sans-serif;
+    white-space: normal;
+    letter-spacing: 1px;
+}
+div.form fieldset div.submit input:hover {
+    -moz-opacity: .65;
+    filter: alpha(opacity=65);
+    opacity: .65;
+}
+html.layout-v2 body fieldset div.submit input {
+    width: 63%;
+    height: 45px;
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .4px;
+    letter-spacing: 2px;
+}
+body .register fieldset div.submit input {
+    margin: 32px 0 0 0;
+}
+div.form.form-register form .submit input {
+    width: 100%;
+}
+button, html input[type=button], html div.form fieldset div.field input[type=button].checkbox:not([type=checkbox]), div.form fieldset div.field html input[type=button].checkbox:not([type=checkbox]), html div.form fieldset div.field select[type=button].checkbox, div.form fieldset div.field html select[type=button].checkbox, input[type=reset], div.form fieldset div.field input[type=reset].checkbox:not([type=checkbox]), div.form fieldset div.field select[type=reset].checkbox, input[type=submit], div.form fieldset div.field input[type=submit].checkbox:not([type=checkbox]), div.form fieldset div.field select[type=submit].checkbox {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+.home:focus, .qa-sign-in-link:focus, div.form fieldset div.field input:not([type=checkbox]):focus, div.form fieldset div.field select.checkbox:not([type=checkbox]):focus, .js-birthday select:focus, .modal-preference-button-open:focus, .close-modal:focus, .qa-tandc-link:focus, .qa-privacypolicy-link:focus, .qa-reveal:focus, .qa-hide:focus, .qa-join-asos:focus, .qa-forgot-password:focus, .privacy-info a:focus, .qa-create-account:focus, .checkbox-label-one-checkbox:focus {
+    outline: none;
+    box-shadow: inset 0px 0px 3px 1px #0770cf;
+}
+html.layout-v2 body fieldset div.field input:not(.input-validation-error):focus, html.layout-v2 body div.form fieldset div.field select.checkbox:not(.input-validation-error):focus, div.form html.layout-v2 body fieldset div.field select.checkbox:not(.input-validation-error):focus {
+    border-color: #0770cf;
+}
+a:hover {
+    -moz-opacity: .65;
+    filter: alpha(opacity=65);
+    opacity: .65;
+}
+html.layout-v2 body fieldset {
+    padding-bottom: 10px;
+}
+/* Register Form *Stop* */
+
+  /* Validation *Start* */
+  .qa-email-validation.field-validation-error {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .4px;
+    display: block;
+    background-color: #fae7ec;
+    border: 2px solid #ce1948;
+    padding: 0px;
+    z-index: 10;
+    max-width: 500px;
+    width: 80%;
+    position: absolute;
+    left: 20%;
+    bottom: 53px;
+    box-sizing: border-box;
+  }
+  .qa-email-validation.field-validation-error {
+    z-index: 1;
+  }
+  .qa-email-validation.field-validation-error {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+  }
+  div.form fieldset div.field span.field-validation-error span {
+    background-color: #fae7ec;
+    display: block;
+    z-index: 10;
+    padding: 5px 10px;
+  }
+  
+  div.form fieldset div.field span.field-validation-error::before {
+    position: absolute;
+    left: 10px;
+    bottom: -12px;
+    content: " ";
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-top: 15px solid #fae7ec;
+    height: 0;
+    width: 0;
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    z-index: 2;
+  }
+  div.form fieldset div.field span.field-validation-error::after {
+    position: absolute;
+    left: 10px;
+    bottom: -15px;
+    content: " ";
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-top: 15px solid #ce1948;
+    height: 0;
+    width: 0;
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    z-index: 1;
+  }
+  .input-validation-error {
+    border: 2px solid #d01345;
+  }
+  div.form fieldset div.field input:not([type=checkbox]).input-validation-error, div.form fieldset div.field select.checkbox:not([type=checkbox]).input-validation-error, div.form fieldset div.field select.input-validation-error {
+    border: 2px solid #d01345;
+}
+  /* Validation *Stop* */
+
+  .terms {
+    padding: 10px 0 10px 0;
+    font-size: .897em;
+    color: #666;
+    text-align: center;
+  }
+  .terms label, .terms div.form fieldset div.field label.checkbox, div.form fieldset div.field .terms label.checkbox {
+    font-size: 13px;
+    line-height: 14px;
+  }
+  
+  label, div.form fieldset div.field label.checkbox {
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: .5px;
+  }
+  .terms a {
+    color: #666;
+    text-decoration: underline;
+  }
