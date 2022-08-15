@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My orders | ASOS</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/account.css">
-    <link rel="stylesheet" href="css/gift.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/account.css">
+    <link rel="stylesheet" href="../css/orders.css">
 </head>
 <body>
     <div class="account-page">
@@ -20,7 +20,7 @@
                         <div class="account-header__items">
                             <div class="account-header__item account-header__logo">
                                 <a href="">
-                                    <img src="img/logo.svg" alt="">
+                                    <img src="../img/logo.svg" alt="">
                                 </a>
                             </div>
                             <div class="account-header__item account-header__title">
@@ -28,7 +28,7 @@
                             </div>
                             <div class="account-header__item account-header__digicert">
                                 <div class="digicert">
-                                    <img src="img/digicert.png" alt="">
+                                    <img src="../img/digicert.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@
                                     <li class="main-nav__item">
                                         <a href="my-account.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/account.svg" alt="">
+                                                <img src="../img/account.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Account overview</span>
@@ -69,10 +69,10 @@
                                     </li>
                                 </ul>
                                 <ul class="main-nav__list">
-                                    <li class="main-nav__item">
+                                    <li class="main-nav__item main-nav__item_selected">
                                         <a href="orders.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/packages.svg" alt="">
+                                                <img src="../img/packages.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>My orders</span>
@@ -84,7 +84,7 @@
                                     <li class="main-nav__item">
                                         <a href="my-details.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/details.svg" alt="">
+                                                <img src="../img/details.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>My details</span>
@@ -94,7 +94,7 @@
                                     <li class="main-nav__item">
                                         <a href="change-password.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/password.svg" alt="">
+                                                <img src="../img/password.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Change password</span>
@@ -104,7 +104,7 @@
                                     <li class="main-nav__item">
                                         <a href="addresses.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/address.svg" alt="">
+                                                <img src="../img/address.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Address book</span>
@@ -114,7 +114,7 @@
                                     <li class="main-nav__item">
                                         <a href="payment-methods.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/payment.svg" alt="">
+                                                <img src="../img/payment.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Payment methods</span>
@@ -124,7 +124,7 @@
                                     <li class="main-nav__item">
                                         <a href="contact-preferences.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/contact.svg" alt="">
+                                                <img src="../img/contact.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Contact preferences</span>
@@ -134,7 +134,7 @@
                                     <li class="main-nav__item">
                                         <a href="social-accounts.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/social.svg" alt="">
+                                                <img src="../img/social.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Social preferences</span>
@@ -143,10 +143,10 @@
                                     </li>
                                 </ul>
                                 <ul class="main-nav__list">
-                                    <li class="main-nav__item main-nav__item_selected">
+                                    <li class="main-nav__item">
                                         <a href="gift.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/gift.svg" alt="">
+                                                <img src="../img/gift.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Gift cards & vouchers</span>
@@ -158,7 +158,7 @@
                                     <li class="main-nav__item">
                                         <a href="">
                                             <div class="main-nav__icon">
-                                                <img src="img/help.svg" alt="">
+                                                <img src="../img/help.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Need help?</span>
@@ -168,7 +168,7 @@
                                     <li class="main-nav__item">
                                         <a href="">
                                             <div class="main-nav__icon">
-                                                <img src="img/question.svg" alt="">
+                                                <img src="../img/question.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Where's my order?</span>
@@ -178,7 +178,7 @@
                                     <li class="main-nav__item">
                                         <a href="">
                                             <div class="main-nav__icon">
-                                                <img src="img/question.svg" alt="">
+                                                <img src="../img/question.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>How do i make a return?</span>
@@ -188,7 +188,7 @@
                                     <li class="main-nav__item">
                                         <a href="">
                                             <div class="main-nav__icon">
-                                                <img src="img/question.svg" alt="">
+                                                <img src="../img/question.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>I need a new returns note</span>
@@ -198,9 +198,9 @@
                                 </ul>
                                 <ul class="main-nav__list">
                                     <li class="main-nav__item">
-                                        <a href="">
+                                        <a href="../index.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/sign-out.svg" alt="">
+                                                <img src="../img/sign-out.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Sign out</span>
@@ -215,85 +215,28 @@
                                 <div class="orders-title">
                                     <div class="content-title">
                                         <a class="content-title__back" href="my-account.php">
-                                            <img src="img/profile-back.svg" alt="">
+                                            <img src="../img/profile-back.svg" alt="">
                                         </a>
                                         <span class="content-title__icon">
-                                            <img src="img/gift.svg" alt="">
+                                            <img src="../img/packages.svg" alt="">
                                         </span>
-                                        <h1 class="content-title__h1">Gift cards & vouchers</h1>
+                                        <h1 class="content-title__h1">My orders</h1>
                                     </div>
                                 </div>
                                 <div class="orders-list">
                                     <div class="container">
                                         <div class="no-orders">
-                                            <img class="no-orders__icon" src="img/gift.svg" alt="">
-                                            <h2 class="no-orders__h2">YOU HAVE NO VOUCHERS YET</h2>
-                                            <p class="no-orders__p">You currently have no vouchers linked to your account. Get started by redeeming or buying one now.</p>
+                                            <img class="no-orders__icon" src="../img/no-orders.svg" alt="">
+                                            <h2 class="no-orders__h2">You currently have no orders</h2>
+                                            <p class="no-orders__p">Best get shopping ASOS pronto…</p>
                                             <div class="no-orders__button">
                                                 <a href="">
-                                                    <span>Add gift card​/voucher</span>
-                                                </a>
-                                            </div>
-                                            <div class="no-orders__button gift-cards__button">
-                                                <a href="">
-                                                    <span>Buy gift voucher</span>
+                                                    <span>Start shopping</span>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="cardListStyles-module_cardListItem__3AXxv">
-                                            <div class="cardStyles-module_cardWrapper__13FEY">
-                                                <div class="cardStyles-module_card__1oq2Q" data-auto-id="cardWrapper" data-testid="cardWrapper">
-                                                    <div class="cardSectionStyles-module_panel__2BYiO cardSectionStyles-module_topPadding__2-YuN cardSectionStyles-module_bottomPadding__1cIlV cardSectionStyles-module_leftPadding__2Gv5Q cardSectionStyles-module_rightPadding__q-xLd" data-auto-id="card" data-testid="card">
-                                                        <div>
-                                                            <div class="Y1LJzRh3OV_GvOINgliAQ">
-                                                                <h4 class="london3 styles-module_typographyHeader__1KAyb" data-testid="heading">NEED HELP WITH THESE OPTIONS?</h4>
-                                                            </div>
-                                                            <div>
-                                                                <div class="_9AlWQeqD1UdC90DcVP66j">
-                                                                    <a data-auto-id="gift-card-vouchers-faq" href="https://www.asos.com/customer-service/customer-care/help/?help=/app/topiclanding/p/92" rel="noreferrer noopener" target="_blank" data-testid="smart-link__anchorTag">
-                                                                        <div class="_3tUuorxkFqYZ6og6dxfsI3">
-                                                                            <span>Gift card/voucher FAQs</span>
-                                                                            <span class="_3_TRi1OC9mDBt4EKOL-iqP">
-                                                                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDE4IDE4Ij48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGZpbGw9IiMyRDJEMkQiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTYgMTJoMTBWMkg2djEwek00IDBoMTR2MTRINFYweiIvPjxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik00IDRoMTB2MTBINHoiLz48cGF0aCBmaWxsPSIjMkQyRDJEIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0yIDE2aDEwVjZIMnYxMHpNMCA0aDE0djE0SDBWNHoiLz48L2c+PC9zdmc+" alt="" class="_3k0M8OWUnx2v2WhFad8EVE"></span>
-                                                                            </div>
-                                                                        </a>
-                                                                        <div class="_27KaiGBJ9vlxO00peRakma">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div>
-                                                                    <div class="_2ZzPAhVDwIfLY_omN4Cadm">
-                                                                        <h3 class="barnsley1 styles-module_typographyHeader__1KAyb _1ER-2glsLh2qq_H8oh7ChC" data-testid="heading">
-                                                                            <button data-auto-id="accordionToggle" class="_2lFozRmWElf_TJaRuXNJDW" aria-controls="whatIsAGiftCard" aria-expanded="false">
-                                                                                <div class="_3tUuorxkFqYZ6og6dxfsI3">
-                                                                                    <span class="leavesden2">What is a gift card?</span>
-                                                                                    <span class="_2pHcmJVjKvZK8soB1tg7q4"></span>
-                                                                                </div>
-                                                                            </button>
-                                                                        </h3>
-                                                                        <div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="_2ZzPAhVDwIfLY_omN4Cadm">
-                                                                        <h3 class="barnsley1 styles-module_typographyHeader__1KAyb _1ER-2glsLh2qq_H8oh7ChC" data-testid="heading">
-                                                                            <button data-auto-id="accordionToggle" class="_2lFozRmWElf_TJaRuXNJDW" aria-controls="whatIsAGiftVoucher" aria-expanded="false">
-                                                                                <div class="_3tUuorxkFqYZ6og6dxfsI3">
-                                                                                    <span class="leavesden2">What is a gift voucher?</span>
-                                                                                    <span class="_2pHcmJVjKvZK8soB1tg7q4"></span>
-                                                                                </div>
-                                                                            </button>
-                                                                        </h3>
-                                                                        <div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
                             </main>
                         </div>
                     </div>

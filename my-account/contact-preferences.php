@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My orders | ASOS</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/account.css">
-    <link rel="stylesheet" href="css/contact-preferences.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/account.css">
+    <link rel="stylesheet" href="../css/contact-preferences.css">
 </head>
 <body>
     <div class="account-page">
@@ -20,7 +20,7 @@
                         <div class="account-header__items">
                             <div class="account-header__item account-header__logo">
                                 <a href="">
-                                    <img src="img/logo.svg" alt="">
+                                    <img src="../img/logo.svg" alt="">
                                 </a>
                             </div>
                             <div class="account-header__item account-header__title">
@@ -28,7 +28,7 @@
                             </div>
                             <div class="account-header__item account-header__digicert">
                                 <div class="digicert">
-                                    <img src="img/digicert.png" alt="">
+                                    <img src="../img/digicert.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@
                                     <li class="main-nav__item">
                                         <a href="contact-preferences.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/account.svg" alt="">
+                                                <img src="../img/account.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Account overview</span>
@@ -72,7 +72,7 @@
                                     <li class="main-nav__item">
                                         <a href="orders.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/packages.svg" alt="">
+                                                <img src="../img/packages.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>My orders</span>
@@ -84,7 +84,7 @@
                                     <li class="main-nav__item">
                                         <a href="my-details.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/details.svg" alt="">
+                                                <img src="../img/details.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>My details</span>
@@ -94,7 +94,7 @@
                                     <li class="main-nav__item">
                                         <a href="change-password.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/password.svg" alt="">
+                                                <img src="../img/password.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Change password</span>
@@ -104,7 +104,7 @@
                                     <li class="main-nav__item">
                                         <a href="addresses.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/address.svg" alt="">
+                                                <img src="../img/address.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Address book</span>
@@ -114,7 +114,7 @@
                                     <li class="main-nav__item">
                                         <a href="payment-methods.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/payment.svg" alt="">
+                                                <img src="../img/payment.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Payment methods</span>
@@ -124,7 +124,7 @@
                                     <li class="main-nav__item  main-nav__item_selected">
                                         <a href="contact-preferences.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/contact.svg" alt="">
+                                                <img src="../img/contact.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Contact preferences</span>
@@ -134,7 +134,7 @@
                                     <li class="main-nav__item">
                                         <a href="social-accounts.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/social.svg" alt="">
+                                                <img src="../img/social.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Social preferences</span>
@@ -146,7 +146,7 @@
                                     <li class="main-nav__item">
                                         <a href="gift.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/gift.svg" alt="">
+                                                <img src="../img/gift.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Gift cards & vouchers</span>
@@ -158,7 +158,7 @@
                                     <li class="main-nav__item">
                                         <a href="">
                                             <div class="main-nav__icon">
-                                                <img src="img/help.svg" alt="">
+                                                <img src="../img/help.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Need help?</span>
@@ -168,7 +168,7 @@
                                     <li class="main-nav__item">
                                         <a href="">
                                             <div class="main-nav__icon">
-                                                <img src="img/question.svg" alt="">
+                                                <img src="../img/question.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Where's my order?</span>
@@ -178,7 +178,7 @@
                                     <li class="main-nav__item">
                                         <a href="">
                                             <div class="main-nav__icon">
-                                                <img src="img/question.svg" alt="">
+                                                <img src="../img/question.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>How do i make a return?</span>
@@ -188,7 +188,7 @@
                                     <li class="main-nav__item">
                                         <a href="">
                                             <div class="main-nav__icon">
-                                                <img src="img/question.svg" alt="">
+                                                <img src="../img/question.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>I need a new returns note</span>
@@ -198,9 +198,9 @@
                                 </ul>
                                 <ul class="main-nav__list">
                                     <li class="main-nav__item">
-                                        <a href="">
+                                        <a href="../index.php">
                                             <div class="main-nav__icon">
-                                                <img src="img/sign-out.svg" alt="">
+                                                <img src="../img/sign-out.svg" alt="">
                                             </div>
                                             <div class="main-nav__description">
                                                 <span>Sign out</span>
@@ -215,10 +215,10 @@
                                 <div class="orders-title">
                                     <div class="content-title">
                                         <a class="content-title__back" href="my-account.php">
-                                            <img src="img/profile-back.svg" alt="">
+                                            <img src="../img/profile-back.svg" alt="">
                                         </a>
                                         <span class="content-title__icon">
-                                            <img src="img/contact.svg" alt="">
+                                            <img src="../img/contact.svg" alt="">
                                         </span>
                                         <h1 class="content-title__h1">Contact preferences</h1>
                                     </div>

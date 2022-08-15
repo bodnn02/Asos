@@ -21,7 +21,7 @@ $(".mm-slider__item").on("click", function(e) {
     $(this).addClass("mm-slider__item_active");
     $(this).parent().parent().parent(".mm-submenu__banner_slider").toggleClass("active");
 });
-$(".burger-menu").parent().on("click", function(e) {
+$(".burger-menu").on("click", function(e) {
     $(".mm-background").toggleClass("active");
     $(".mm-overlay").toggleClass("active");
     $('html, body').css({

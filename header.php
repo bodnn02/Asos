@@ -58,7 +58,7 @@
                     <ul class="header-widgets">
                         <li class="header-widgets__item">
                             <button class="header-widgets__search">
-                                <img src="img/widget-search.svg" alt="">
+                            <svg viewBox="0 0 17 17" role="img" aria-labelledby="search-icon"><title id="search-icon">Search</title><path fill="currentColor" fill-rule="nonzero" d="M7.65 15.3a7.65 7.65 0 1 1 5.997-2.9c-.01.012 3.183 3.297 3.183 3.297l-1.22 1.18s-3.144-3.283-3.154-3.275A7.618 7.618 0 0 1 7.65 15.3zm0-2a5.65 5.65 0 1 0 0-11.3 5.65 5.65 0 0 0 0 11.3z"></path></svg>
                             </button>
                         </li>
                         <li class="header-widgets__item">
@@ -69,9 +69,9 @@
                                 <div class="header-dropdown__container">
                                     <div class="header-dropdown__top">
                                     <span class="header-dropdown__auth">
-                                        <a class="header-dropdown__login" href="my-account.php">Sign In</a>
+                                        <a class="header-dropdown__login" href="my-account/login.php">Sign In</a>
                                         <div class="header-dropdown__separator"></div>
-                                        <a class="header-dropdown__register" href="my-account.php">Join</a>
+                                        <a class="header-dropdown__register" href="my-account/register.php">Join</a>
                                     </span>
                                     <button class="header-dropdown__close">
                                         <span></span>
@@ -79,16 +79,16 @@
                                     </div>
                                     <ul class="header-dropdown__bottom">
                                         <li>
-                                            <a href="">My Account</a>
+                                            <a href="my-account/my-account.php">My Account</a>
                                         </li>
                                         <li>
-                                            <a href="">My Orders</a>
+                                            <a href="my-account/orders.php">My Orders</a>
                                         </li>
                                         <li>
                                             <a href="">Returns Information</a>
                                         </li>
                                         <li>
-                                            <a href="">Contact Preferences</a>
+                                            <a href="my-account/contact-preferences.php">Contact Preferences</a>
                                         </li>
                                     </ul>
                                 </div>

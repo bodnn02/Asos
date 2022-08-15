@@ -471,32 +471,6 @@ div.form fieldset div.field span.hint {
     line-height: 1.7;
     letter-spacing: .4px;
 }
-.qa-reveal, .qa-hide {
-    position: relative;
-    float: right;
-    margin-top: -33px;
-    margin-right: 6px;
-    background: none;
-    color: inherit;
-    border: none;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
-    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 1.7;
-    letter-spacing: 1.7px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #2d2d2d;
-}
-
-.hidden {
-    display: none;
-}
 div.form fieldset div.select-list {
     height: 45px;
     overflow: hidden;

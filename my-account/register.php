@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ASOS | Join ASOS</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/register.css">
 </head>
 <body>
     <section class="auth-main">
         <div class="auth-main__header">
             <h1>
                 <a href="/" class="home" id="asos-logo">
-                    <img src="img/logo.svg" height="28" width="93" alt="ASOS Logo" loading="lazy">
+                    <img src="../img/logo.svg" height="28" width="93" alt="ASOS Logo" loading="lazy">
                 </a>
             </h1>
         </div>
@@ -359,8 +359,8 @@
         </label>
     </div>
 </body>
-<script src="js/jquery.min.js"></script>
-<script src="js/auth.js"></script>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/auth.js"></script>
 <style>
     body {
         background-color: #eee;
