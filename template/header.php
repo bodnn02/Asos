@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en-GB" data-platform="desktop" data-store-code="ROW" data-country-code="UA" data-gender="men">
+<html lang="en-GB">
 <head>
     <meta charset="UTF-8">
     <title>ASOS | Online Shopping for the Latest Clothes & Fashion</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png">
     <meta name="description" content="The ASOS Black Friday sale has arrived! Check out our amazing deals across clothing, shoes &amp; accessories. Offers last until Cyber Monday on 2 December. Shop now at ASOS. ">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
 </head>
+<body>
 <header class="header">
             <div class="preferences">
                 <div class="container">
@@ -20,8 +22,8 @@
                             <a href="">Help & FAQs</a>
                         </li>
                         <li class="preferences-flex__item">
-                            <button class="preferences-flex__country" aria-label="Shopping from: Ukraine. Choose Country">
-                                <img src="img/flags/ua.png" alt="">
+                            <button class="preferences-flex__country" aria-label="Shopping from: Russia. Choose Country">
+                                <img src="img/flags/ru.png" alt="">
                             </button>
                         </li>
                     </ul>
@@ -52,6 +54,33 @@
                                 <button class="header-search__btn">
                                     <svg viewBox="0 0 17 17" role="img" aria-labelledby="search-icon"><title id="search-icon">Search</title><path fill="currentColor" fill-rule="nonzero" d="M7.65 15.3a7.65 7.65 0 1 1 5.997-2.9c-.01.012 3.183 3.297 3.183 3.297l-1.22 1.18s-3.144-3.283-3.154-3.275A7.618 7.618 0 0 1 7.65 15.3zm0-2a5.65 5.65 0 1 0 0-11.3 5.65 5.65 0 0 0 0 11.3z"></path></svg>
                                 </button>
+                                <div class="search-results">
+                                <ul id="search-results" class="search-results-list" aria-labelledby="chrome-search-label" role="listbox">
+                                    <li id="search-result-0" class="search-results-list__item" role="option" aria-disabled="false" aria-label="Hoodie 4&nbsp;431"
+                                        aria-selected="false"><span class="word__highlighted">Hoodie</span><span class="word">4&nbsp;431</span></li>
+                                    <li id="search-result-1" class="search-results-list__item" role="option" aria-disabled="false" aria-label="Nike Hoodie 305"
+                                        aria-selected="false">Nike <span class="word__highlighted">Hoodie</span><span class="word">305</span></li>
+                                    <li id="search-result-2" class="search-results-list__item" role="option" aria-disabled="false"
+                                        aria-label="Oversized Hoodie 1&nbsp;239" aria-selected="false">Oversized <span
+                                            class="word__highlighted">Hoodie</span><span class="word">1&nbsp;239</span></li>
+                                    <li id="search-result-3" class="search-results-list__item" role="option" aria-disabled="false" aria-label="Zip Up Hoodie 489"
+                                        aria-selected="false">Zip Up <span class="word__highlighted">Hoodie</span><span class="word">489</span></li>
+                                    <li id="search-result-4" class="search-results-list__item" role="option" aria-disabled="false" aria-label="Hoodie Men 2&nbsp;932"
+                                        aria-selected="false"><span class="word__highlighted">Hoodie</span> Men<span class="word">2&nbsp;932</span></li>
+                                    <li id="search-result-5" class="search-results-list__item" role="option" aria-disabled="false"
+                                        aria-label="Hoodies Women 1&nbsp;631" aria-selected="false"><span class="word__highlighted">Hoodie</span>s Women<span
+                                            class="word">1&nbsp;631</span></li>
+                                    <li id="search-result-6" class="search-results-list__item" role="option" aria-disabled="false" aria-label="Graphic Hoodie 730"
+                                        aria-selected="false">Graphic <span class="word__highlighted">Hoodie</span><span class="word">730</span></li>
+                                    <li id="search-result-7" class="search-results-list__item" role="option" aria-disabled="false"
+                                        aria-label="Black Hoodie 1&nbsp;142" aria-selected="false">Black <span class="word__highlighted">Hoodie</span><span
+                                            class="word">1&nbsp;142</span></li>
+                                    <li id="search-result-8" class="search-results-list__item" role="option" aria-disabled="false" aria-label="Collusion Hoodie 122"
+                                        aria-selected="false">Collusion <span class="word__highlighted">Hoodie</span><span class="word">122</span></li>
+                                    <li id="search-result-9" class="search-results-list__item" role="option" aria-disabled="false" aria-label="Nike Hoodie Men 179"
+                                        aria-selected="false">Nike <span class="word__highlighted">Hoodie</span> Men<span class="word">179</span></li>
+                                </ul>
+                                </div>
                             </div>
                         </form>
                     </div>
@@ -62,20 +91,26 @@
                             </button>
                         </li>
                         <li class="header-widgets__item">
-                            <button>
+                            <a href="my-account/my-account.php">
                                 <img src="img/profile.svg" alt="">
-                            </button>
+                            </a>
                             <div class="header-dropdown">
                                 <div class="header-dropdown__container">
                                     <div class="header-dropdown__top">
-                                    <span class="header-dropdown__auth">
-                                        <a class="header-dropdown__login" href="my-account/login.php">Sign In</a>
-                                        <div class="header-dropdown__separator"></div>
-                                        <a class="header-dropdown__register" href="my-account/register.php">Join</a>
-                                    </span>
-                                    <button class="header-dropdown__close">
-                                        <span></span>
-                                    </button>
+                                        <span class="header-dropdown__auth">
+                                            <a class="header-dropdown__login" href="my-account/login.php">Sign In</a>
+                                            <div class="header-dropdown__separator"></div>
+                                            <a class="header-dropdown__register" href="my-account/register.php">Join</a>
+                                        </span>
+                                        <!-- <div class="header-dropdown__welcome"> //Когда пользователь зашел в аккаунт
+                                            <span class="header-dropdown__name">Hi Max</span>
+                                            <button class="header-dropdown__sign-out">
+                                                Sign Out
+                                            </button>
+                                        </div> -->
+                                        <button class="header-dropdown__close">
+                                            <span></span>
+                                        </button>
                                     </div>
                                     <ul class="header-dropdown__bottom">
                                         <li>
@@ -99,10 +134,86 @@
                                 <img src="img/favorites.svg" alt="">
                             </a>
                         </li>
-                        <li class="header-widgets__item">
-                            <a href="">
+                        <li class="header-widgets__item header-widgets__cart">
+                            <a href="bag-empty.php">
                                 <img src="img/cart.svg" alt="">
                             </a>
+                            <div class="header-dropdown">
+                                <div class="header-dropdown__container">
+                                        <div class="header-cart__top">
+                                            <div data-test-id="miniBagHeader" class="header-cart__header"><span class="header-cart__title">My Bag,</span><span
+                                                    data-test-id="miniBagItemCount">1 item</span></div><button class="header-dropdown__close">
+                                        <span></span>
+                                    </button>
+                                        </div>
+                                        <ul class="cart-items">
+                                            <div class="cart-items__wrapper">
+                                                <ul>
+                                                    <li class="cart-item">
+                                                        <div class="cart-item__wrapper">
+                                                            <div class="PGkhm53" role="alert"></div>
+                                                            <div class="_2XTT510 jVCq0Wv liqWkbK"><a
+                                                                    href="https://www.asos.com/prd/203023751?ctaref=mini+bag&amp;featureref1=mini+bag"
+                                                                    aria-label="Name: South Beach overlock stitching t-shirt in black; Price: £17.00; Colour: BLACK; Size: XS; Quantity: 1"
+                                                                    class="_11X7yl1 _2RlpP5W"><img
+                                                                        src="//images.asos-media.com/products/south-beach-overlock-stitching-t-shirt-in-black/203023732-1-black"
+                                                                        srcset="//images.asos-media.com/products/south-beach-overlock-stitching-t-shirt-in-black/203023732-1-black 2x"
+                                                                        alt="" class="_1rG5Fc4">
+                                                                    <dl class="_1dkE4dC _2RlpP5W">
+                                                                        <div class="_ps-zEB">
+                                                                            <dt class="_1SsJlmy">Price</dt>
+                                                                            <dd>
+                                                                                <div class="pwI53yn _1HCdHH0"><span class="_1bt9HWU">£17.00</span>
+                                                                                </div>
+                                                                            </dd>
+                                                                        </div>
+                                                                        <div class="_2g_Mcyd">
+                                                                            <dt class="_1SsJlmy">Name</dt>
+                                                                            <dd>South Beach overlock stitching t-shirt in black</dd>
+                                                                        </div>
+                                                                        <div class="SG2C9NL">
+                                                                            <div class="_3c2M1FE">
+                                                                                <dt class="_1SsJlmy">Colour</dt>
+                                                                                <dd>BLACK</dd>
+                                                                            </div>
+                                                                            <div class="_2Z5GEI3">
+                                                                                <dt class="_1SsJlmy">Size</dt>
+                                                                                <dd>XS</dd>
+                                                                            </div>
+                                                                            <div class="_2JlUFZ3">
+                                                                                <dt><abbr title="Quantity">Qty</abbr></dt>
+                                                                                <dd class="_2JlUFZ3">1</dd>
+                                                                            </div>
+                                                                        </div>
+                                                                    </dl>
+                                                                </a><button aria-label="Delete this item" class="_2y4LZqx"></button></div>
+                                                            <div class="niMMpP3"></div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </ul>
+                                        <div class="_3mygsrG">
+                                            <div data-test-id="miniBagFooter" class="QkVPNga">
+                                                <div></div>
+                                                <div class="_3r0GnBp">
+                                                    <h1>Sub-total</h1>
+                                                    <div data-test-id="miniBagSubTotal">£17.00</div>
+                                                </div>
+                                                <div class="_58IUcq4">
+                                                    <div class="_1uskYPE"><a data-test-id="bag-link" class="_1TlOB9h _2tvh469 _12h15d-"
+                                                            href="https://www.asos.com/bag?ctaref=mini+bag" type="button"><span
+                                                                class="_1M-cSy1">View Bag</span></a></div>
+                                                    <div class="_1uskYPE"><a data-test-id="checkout-link" class="_1TlOB9h _2tvh469 _3olGy8t"
+                                                            href="#" type="button"><span class="_1M-cSy1">Checkout</span></a></div>
+                                                </div>
+                                                <div class="_3dQjtSg"><span class="_2_JZkVp">Free Delivery Worldwide*</span><span
+                                                        class="VlXv2jL"><span>More info </span><a class="gcsKVzK"
+                                                            href="https://www.asos.com/customer-service/delivery/">here</a></span></div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -818,7 +929,7 @@
         <h1 class="preferences-overlay__title">Preferences</h1>
         <form action="" class="preferences-overlay__form">
             <label for="country">SHOP IN:</label>
-            <select id="country"><option value="AF">Afghanistan</option><option value="AX">Aland Islands</option><option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AS">American Samoa</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option><option value="AQ">Antarctica</option><option value="AG">Antigua and Barbuda</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaijan</option><option value="BS">Bahamas</option><option value="BH">Bahrain</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Belarus</option><option value="BE">Belgium</option><option value="BZ">Belize</option><option value="BJ">Benin</option><option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia</option><option value="BQ">Bonaire, Sint Eustatius and Saba</option><option value="BA">Bosnia and Herzegovina</option><option value="BW">Botswana</option><option value="BR">Brazil</option><option value="IO">British Indian Ocean Territory</option><option value="BN">Brunei Darussalam</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="KH">Cambodia</option><option value="CM">Cameroon</option><option value="CA">Canada</option><option value="CV">Cape Verde</option><option value="KY">Cayman Islands</option><option value="CF">Central African Republic</option><option value="TD">Chad</option><option value="CL">Chile</option><option value="CN">China</option><option value="CX">Christmas Island (Australia)</option><option value="CC">Cocos (Keeling) Islands</option><option value="CO">Colombia</option><option value="KM">Comoros</option><option value="CG">Congo</option><option value="CK">Cook Islands</option><option value="CR">Costa Rica</option><option value="CI">Cote d'Ivoire</option><option value="HR">Croatia</option><option value="CW">Curacao</option><option value="CY">Cyprus</option><option value="CZ">Czech Republic</option><option value="CD">Democratic Republic of the Congo</option><option value="DK">Denmark</option><option value="DJ">Djibouti</option><option value="DM">Dominica</option><option value="DO">Dominican Republic</option><option value="EC">Ecuador</option><option value="EG">Egypt</option><option value="SV">El Salvador</option><option value="GQ">Equatorial Guinea</option><option value="ER">Eritrea</option><option value="EE">Estonia</option><option value="SZ">Eswatini</option><option value="ET">Ethiopia</option><option value="FK">Falkland Islands (Malvinas)</option><option value="FO">Faroe Islands</option><option value="FJ">Fiji</option><option value="FI">Finland</option><option value="FR">France</option><option value="GF">French Guiana</option><option value="PF">French Polynesia</option><option value="TF">French Southern Territories</option><option value="GA">Gabon</option><option value="GM">Gambia</option><option value="GE">Georgia</option><option value="DE">Germany</option><option value="GH">Ghana</option><option value="GI">Gibraltar</option><option value="GR">Greece</option><option value="GL">Greenland</option><option value="GD">Grenada</option><option value="GP">Guadeloupe</option><option value="GU">Guam</option><option value="GT">Guatemala</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="VA">Holy See (Vatican City State)</option><option value="HN">Honduras</option><option value="HK">Hong Kong</option><option value="HU">Hungary</option><option value="IS">Iceland</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IQ">Iraq</option><option value="IE">Ireland, Republic of</option><option value="IL">Israel</option><option value="IT">Italy</option><option value="JM">Jamaica</option><option value="JP">Japan</option><option value="JO">Jordan</option><option value="KZ">Kazakhstan</option><option value="KE">Kenya</option><option value="KI">Kiribati</option><option value="KR">Korea, Republic of (South Korea)</option><option value="XK">Kosovo</option><option value="KW">Kuwait</option><option value="KG">Kyrgyzstan</option><option value="LA">Lao People's Democratic Republic</option><option value="LV">Latvia</option><option value="LB">Lebanon</option><option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LI">Liechtenstein</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option><option value="MO">Macao</option><option value="MG">Madagascar</option><option value="MW">Malawi</option><option value="MY">Malaysia</option><option value="MV">Maldives</option><option value="ML">Mali</option><option value="MT">Malta</option><option value="MH">Marshall Islands</option><option value="MQ">Martinique</option><option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="YT">Mayotte</option><option value="MX">Mexico</option><option value="FM">Micronesia, Federated States of</option><option value="MD">Moldova, Republic of</option><option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option><option value="MS">Montserrat</option><option value="MA">Morocco</option><option value="MZ">Mozambique</option><option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NL">Netherlands</option><option value="NC">New Caledonia</option><option value="NZ">New Zealand</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NF">Norfolk Island</option><option value="MK">North Macedonia</option><option value="MP">Northern Mariana Islands</option><option value="NO">Norway</option><option value="OM">Oman</option><option value="PK">Pakistan</option><option value="PW">Palau</option><option value="PS">Palestine</option><option value="PA">Panama</option><option value="PG">Papua New Guinea</option><option value="PY">Paraguay</option><option value="PE">Peru</option><option value="PH">Philippines</option><option value="PN">Pitcairn</option><option value="PL">Poland</option><option value="PT">Portugal</option><option value="PR">Puerto Rico</option><option value="QA">Qatar</option><option value="RE">Reunion</option><option value="RO">Romania</option><option value="RU">Russia</option><option value="RW">Rwanda</option><option value="BL">Saint Barthelemy</option><option value="SH">Saint Helena, Ascension and Tristan da Cunha</option><option value="KN">Saint Kitts and Nevis</option><option value="LC">Saint Lucia</option><option value="MF">Saint Martin (French part)</option><option value="PM">Saint Pierre and Miquelon</option><option value="VC">Saint Vincent and the Grenadines</option><option value="WS">Samoa</option><option value="SM">San Marino</option><option value="ST">Sao Tome and Principe</option><option value="SA">Saudi Arabia</option><option value="SN">Senegal</option><option value="RS">Serbia</option><option value="SC">Seychelles</option><option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SX">Sint Maarten (Dutch part)</option><option value="SK">Slovakia</option><option value="SI">Slovenia</option><option value="SB">Solomon Islands</option><option value="ZA">South Africa</option><option value="GS">South Georgia and the South Sandwich Islands</option><option value="SS">South Sudan</option><option value="ES">Spain</option><option value="LK">Sri Lanka</option><option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SJ">Svalbard and Jan Mayen</option><option value="SE">Sweden</option><option value="CH">Switzerland</option><option value="TW">Taiwan</option><option value="TJ">Tajikistan</option><option value="TZ">Tanzania, United Republic of</option><option value="TH">Thailand</option><option value="TL">Timor-Leste</option><option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option><option value="TT">Trinidad and Tobago</option><option value="TN">Tunisia</option><option value="TR">Turkey</option><option value="TM">Turkmenistan</option><option value="TC">Turks and Caicos Islands</option><option value="TV">Tuvalu</option><option value="UG">Uganda</option><option value="UA" selected="">Ukraine</option><option value="AE">United Arab Emirates</option><option value="GB">United Kingdom</option><option value="US">United States</option><option value="UM">United States Minor Outlying Islands</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option><option value="VN">Vietnam</option><option value="VG">Virgin Islands, British</option><option value="VI">Virgin Islands, U.S.</option><option value="WF">Wallis and Futuna</option><option value="EH">Western Sahara</option><option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option></select>
+            <select id="country"><option value="AF">Afghanistan</option><option value="AX">Aland Islands</option><option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AS">American Samoa</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option><option value="AQ">Antarctica</option><option value="AG">Antigua and Barbuda</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaijan</option><option value="BS">Bahamas</option><option value="BH">Bahrain</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Belarus</option><option value="BE">Belgium</option><option value="BZ">Belize</option><option value="BJ">Benin</option><option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia</option><option value="BQ">Bonaire, Sint Eustatius and Saba</option><option value="BA">Bosnia and Herzegovina</option><option value="BW">Botswana</option><option value="BR">Brazil</option><option value="IO">British Indian Ocean Territory</option><option value="BN">Brunei Darussalam</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="KH">Cambodia</option><option value="CM">Cameroon</option><option value="CA">Canada</option><option value="CV">Cape Verde</option><option value="KY">Cayman Islands</option><option value="CF">Central African Republic</option><option value="TD">Chad</option><option value="CL">Chile</option><option value="CN">China</option><option value="CX">Christmas Island (Australia)</option><option value="CC">Cocos (Keeling) Islands</option><option value="CO">Colombia</option><option value="KM">Comoros</option><option value="CG">Congo</option><option value="CK">Cook Islands</option><option value="CR">Costa Rica</option><option value="CI">Cote d'Ivoire</option><option value="HR">Croatia</option><option value="CW">Curacao</option><option value="CY">Cyprus</option><option value="CZ">Czech Republic</option><option value="CD">Democratic Republic of the Congo</option><option value="DK">Denmark</option><option value="DJ">Djibouti</option><option value="DM">Dominica</option><option value="DO">Dominican Republic</option><option value="EC">Ecuador</option><option value="EG">Egypt</option><option value="SV">El Salvador</option><option value="GQ">Equatorial Guinea</option><option value="ER">Eritrea</option><option value="EE">Estonia</option><option value="SZ">Eswatini</option><option value="ET">Ethiopia</option><option value="FK">Falkland Islands (Malvinas)</option><option value="FO">Faroe Islands</option><option value="FJ">Fiji</option><option value="FI">Finland</option><option value="FR">France</option><option value="GF">French Guiana</option><option value="PF">French Polynesia</option><option value="TF">French Southern Territories</option><option value="GA">Gabon</option><option value="GM">Gambia</option><option value="GE">Georgia</option><option value="DE">Germany</option><option value="GH">Ghana</option><option value="GI">Gibraltar</option><option value="GR">Greece</option><option value="GL">Greenland</option><option value="GD">Grenada</option><option value="GP">Guadeloupe</option><option value="GU">Guam</option><option value="GT">Guatemala</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="VA">Holy See (Vatican City State)</option><option value="HN">Honduras</option><option value="HK">Hong Kong</option><option value="HU">Hungary</option><option value="IS">Iceland</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IQ">Iraq</option><option value="IE">Ireland, Republic of</option><option value="IL">Israel</option><option value="IT">Italy</option><option value="JM">Jamaica</option><option value="JP">Japan</option><option value="JO">Jordan</option><option value="KZ">Kazakhstan</option><option value="KE">Kenya</option><option value="KI">Kiribati</option><option value="KR">Korea, Republic of (South Korea)</option><option value="XK">Kosovo</option><option value="KW">Kuwait</option><option value="KG">Kyrgyzstan</option><option value="LA">Lao People's Democratic Republic</option><option value="LV">Latvia</option><option value="LB">Lebanon</option><option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LI">Liechtenstein</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option><option value="MO">Macao</option><option value="MG">Madagascar</option><option value="MW">Malawi</option><option value="MY">Malaysia</option><option value="MV">Maldives</option><option value="ML">Mali</option><option value="MT">Malta</option><option value="MH">Marshall Islands</option><option value="MQ">Martinique</option><option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="YT">Mayotte</option><option value="MX">Mexico</option><option value="FM">Micronesia, Federated States of</option><option value="MD">Moldova, Republic of</option><option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option><option value="MS">Montserrat</option><option value="MA">Morocco</option><option value="MZ">Mozambique</option><option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NL">Netherlands</option><option value="NC">New Caledonia</option><option value="NZ">New Zealand</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NF">Norfolk Island</option><option value="MK">North Macedonia</option><option value="MP">Northern Mariana Islands</option><option value="NO">Norway</option><option value="OM">Oman</option><option value="PK">Pakistan</option><option value="PW">Palau</option><option value="PS">Palestine</option><option value="PA">Panama</option><option value="PG">Papua New Guinea</option><option value="PY">Paraguay</option><option value="PE">Peru</option><option value="PH">Philippines</option><option value="PN">Pitcairn</option><option value="PL">Poland</option><option value="PT">Portugal</option><option value="PR">Puerto Rico</option><option value="QA">Qatar</option><option value="RE">Reunion</option><option value="RO">Romania</option><option value="RU" selected="">Russia</option><option value="RW">Rwanda</option><option value="BL">Saint Barthelemy</option><option value="SH">Saint Helena, Ascension and Tristan da Cunha</option><option value="KN">Saint Kitts and Nevis</option><option value="LC">Saint Lucia</option><option value="MF">Saint Martin (French part)</option><option value="PM">Saint Pierre and Miquelon</option><option value="VC">Saint Vincent and the Grenadines</option><option value="WS">Samoa</option><option value="SM">San Marino</option><option value="ST">Sao Tome and Principe</option><option value="SA">Saudi Arabia</option><option value="SN">Senegal</option><option value="RS">Serbia</option><option value="SC">Seychelles</option><option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SX">Sint Maarten (Dutch part)</option><option value="SK">Slovakia</option><option value="SI">Slovenia</option><option value="SB">Solomon Islands</option><option value="ZA">South Africa</option><option value="GS">South Georgia and the South Sandwich Islands</option><option value="SS">South Sudan</option><option value="ES">Spain</option><option value="LK">Sri Lanka</option><option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SJ">Svalbard and Jan Mayen</option><option value="SE">Sweden</option><option value="CH">Switzerland</option><option value="TW">Taiwan</option><option value="TJ">Tajikistan</option><option value="TZ">Tanzania, United Republic of</option><option value="TH">Thailand</option><option value="TL">Timor-Leste</option><option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option><option value="TT">Trinidad and Tobago</option><option value="TN">Tunisia</option><option value="TR">Turkey</option><option value="TM">Turkmenistan</option><option value="TC">Turks and Caicos Islands</option><option value="TV">Tuvalu</option><option value="UG">Uganda</option><option value="UA">Ukraine</option><option value="AE">United Arab Emirates</option><option value="GB">United Kingdom</option><option value="US">United States</option><option value="UM">United States Minor Outlying Islands</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option><option value="VN">Vietnam</option><option value="VG">Virgin Islands, British</option><option value="VI">Virgin Islands, U.S.</option><option value="WF">Wallis and Futuna</option><option value="EH">Western Sahara</option><option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option></select>
             <div class="preferences-overlay__payments">
                 <ol>
                     <li>Free Delivery Worldwide</li>
@@ -864,6 +975,33 @@
                 <button class="header-search__btn">
                     <svg viewBox="0 0 17 17" role="img" aria-labelledby="search-icon"><title id="search-icon">Search</title><path fill="currentColor" fill-rule="nonzero" d="M7.65 15.3a7.65 7.65 0 1 1 5.997-2.9c-.01.012 3.183 3.297 3.183 3.297l-1.22 1.18s-3.144-3.283-3.154-3.275A7.618 7.618 0 0 1 7.65 15.3zm0-2a5.65 5.65 0 1 0 0-11.3 5.65 5.65 0 0 0 0 11.3z"></path></svg>
                 </button>
+                <div class="search-results">
+                    <ul id="search-results" class="search-results-list" aria-labelledby="chrome-search-label" role="listbox">
+                        <li id="search-result-0" class="search-results-list__item" role="option" aria-disabled="false" aria-label="Hoodie 4&nbsp;431"
+                            aria-selected="false"><span class="word__highlighted">Hoodie</span><span class="word">4&nbsp;431</span></li>
+                        <li id="search-result-1" class="search-results-list__item" role="option" aria-disabled="false" aria-label="Nike Hoodie 305"
+                            aria-selected="false">Nike <span class="word__highlighted">Hoodie</span><span class="word">305</span></li>
+                        <li id="search-result-2" class="search-results-list__item" role="option" aria-disabled="false"
+                            aria-label="Oversized Hoodie 1&nbsp;239" aria-selected="false">Oversized <span
+                                class="word__highlighted">Hoodie</span><span class="word">1&nbsp;239</span></li>
+                        <li id="search-result-3" class="search-results-list__item" role="option" aria-disabled="false" aria-label="Zip Up Hoodie 489"
+                            aria-selected="false">Zip Up <span class="word__highlighted">Hoodie</span><span class="word">489</span></li>
+                        <li id="search-result-4" class="search-results-list__item" role="option" aria-disabled="false" aria-label="Hoodie Men 2&nbsp;932"
+                            aria-selected="false"><span class="word__highlighted">Hoodie</span> Men<span class="word">2&nbsp;932</span></li>
+                        <li id="search-result-5" class="search-results-list__item" role="option" aria-disabled="false"
+                            aria-label="Hoodies Women 1&nbsp;631" aria-selected="false"><span class="word__highlighted">Hoodie</span>s Women<span
+                                class="word">1&nbsp;631</span></li>
+                        <li id="search-result-6" class="search-results-list__item" role="option" aria-disabled="false" aria-label="Graphic Hoodie 730"
+                            aria-selected="false">Graphic <span class="word__highlighted">Hoodie</span><span class="word">730</span></li>
+                        <li id="search-result-7" class="search-results-list__item" role="option" aria-disabled="false"
+                            aria-label="Black Hoodie 1&nbsp;142" aria-selected="false">Black <span class="word__highlighted">Hoodie</span><span
+                                class="word">1&nbsp;142</span></li>
+                        <li id="search-result-8" class="search-results-list__item" role="option" aria-disabled="false" aria-label="Collusion Hoodie 122"
+                            aria-selected="false">Collusion <span class="word__highlighted">Hoodie</span><span class="word">122</span></li>
+                        <li id="search-result-9" class="search-results-list__item" role="option" aria-disabled="false" aria-label="Nike Hoodie Men 179"
+                            aria-selected="false">Nike <span class="word__highlighted">Hoodie</span> Men<span class="word">179</span></li>
+                    </ul>
+                </div>
             </div>
         </form>
     </div>
@@ -1104,7 +1242,7 @@
                                 </details>
                                 <div class="mm-country-selector">
                                     <div class="container">
-                                        <button class="footer-shopping__btn" data-testid="country-selector-btn" type="button" aria-label="Shopping from: Ukraine. Choose Country"><span>You're in</span><img src="https://assets.asosservices.com/storesa/images/flags/ua.png" alt="Ukraine"><span>Change</span></button>
+                                        <button class="footer-shopping__btn" data-testid="country-selector-btn" type="button" aria-label="Shopping from: Ukraine. Choose Country"><span>You're in</span><img src="https://assets.asosservices.com/storesa/images/flags/ru.png" alt="Russia"><span>Change</span></button>
                                     </div>
                                 </div>
                             </div>
@@ -1337,4 +1475,3 @@
     </div>
     <aside class="mm-background"></aside>
 </div>
-<body>

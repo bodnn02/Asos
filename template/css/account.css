@@ -443,28 +443,28 @@ body {
 
 /* Account Welcome *Stop* */
 
-/* Account Orders *Start* */
+/* Account Content *Start* */
 
-.orders-title {
+.account-block__title {
     background-color: var(--3pchel);
     padding: 13px calc(4 * 4px);
     text-align: center;
     position: relative;
 }
 @media (min-width: 640px) {
-    .orders-title {
+    .account-block__title {
         padding: calc(4 * 4px) calc(6 * 4px);
     }
 }
 @media (min-width: 720px) {
-    .orders-title {
+    .account-block__title {
         text-align: left;
         padding: calc(6 * 4px) calc(6 * 4px) 0;
         padding-bottom: calc(6 * 4px);
     }
 }
 @media (min-width: 960px) {
-    .orders-title{
+    .account-block__title{
         padding: calc(8 * 4px) calc(8 * 4px) 0;
         padding-bottom: calc(8 * 4px);
     }
@@ -544,28 +544,28 @@ body {
         padding-top: 0;
     }
 }
-.orders-list {
+.account-block__main {
     position: relative;
     background-color: var(--3pchel);
     margin-top: calc(3 * 4px);
 }
-.orders-list > .container {
+.account-block__main > .container {
     padding: 24px 16px;
 }
 @media (min-width: 960px) {
-    .orders-list > .container {
+    .account-block__main > .container {
         padding: 32px; 
     }
 }
-.no-orders {
+.content-wrapper {
     position: relative;
     text-align: center;
 }
-.no-orders__icon {
+.content-wrapper__icon {
     width: 88px;
     max-height: 88px;
 }
-.no-orders__h2 {
+.content-wrapper__h2 {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: .8px;
@@ -576,27 +576,27 @@ body {
     text-align: center;
 }
 @media (min-width: 640px) {
-    .no-orders__h2 {
+    .content-wrapper__h2 {
         margin-top: calc(3 * 4px);
     }
 }
-.no-orders__h2 {
+.content-wrapper__h2 {
     display: inherit;
     margin: 0;
     text-transform: uppercase;
 }
-.no-orders__p {
+.content-wrapper__p {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: .4px;
     line-height: 22px;
     margin-bottom: calc(6 * 4px);
 }
-.no-orders__button {
+.content-wrapper__button {
     display: flex;
     justify-content: center;
 }
-.no-orders__button > a {
+.content-wrapper__button > a {
     letter-spacing: .6px;
     line-height: 18px;
     font-size: 16px;
@@ -628,15 +628,13 @@ body {
     background: var(--11lcxa5);
     color: var(--3pchel);
 }
-.no-orders__button > a > span {
+.content-wrapper__button > a > span {
     align-items: center;
     display: flex;
     flex-direction: column;
     height: 100%;
     justify-content: center;
 }
-/* Account Orders *Stop* */
-
 /* Account content *Stop* */
 a:hover {
     text-decoration: underline;
@@ -741,3 +739,19 @@ a:hover {
     }
 }
 /* Footer *Stop* */
+
+@media (max-width: 719px) {
+    .account-block__nav {
+        display: none;
+    }
+    .account-block__content {
+        display: block;
+        width: 100%;
+    }
+    .content-title__icon {
+        display: none;
+    }
+    .content-title__h1 {
+        text-align: center;
+    }
+}

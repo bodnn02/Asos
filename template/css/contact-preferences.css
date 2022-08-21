@@ -1,21 +1,3 @@
-@media (max-width: 719px) {
-    .account-block__nav {
-        display: none;
-    }
-    .account-block__content {
-        display: block;
-        width: 100%;
-    }
-    .content-title__icon {
-        display: none;
-    }
-    .content-title__h1 {
-        text-align: center;
-    }
-}
-.orders-list {
-    background: none;
-}
 .styles-module_typographyHeaderUppercase__3UaRd {
     text-transform: uppercase;
 }
@@ -338,4 +320,35 @@
 }
 .cardSectionStyles-module_topPadding__2-YuN {
     margin-top: 20px;
+}
+.styles-module_checkboxInput__-0kTO, .styles-module_checkboxInput__-0kTO+.styles-module_labelText__3LEwt:before {
+    cursor: pointer;
+    display: inline-block;
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    vertical-align: middle;
+    width: 24px;
+}
+.styles-module_checkboxInput__-0kTO+.styles-module_labelText__3LEwt:before {
+    background-color: var(--background);
+    border: 1px solid var(--border);
+    content: "";
+    display: block;
+}
+.styles-module_checkboxInput__-0kTO+.styles-module_labelText__3LEwt:after {
+    content: "";
+    height: 13px;
+    left: 4px;
+    position: absolute;
+    top: 6px;
+    width: 16px;
+}
+.styles-module_checkboxInput__-0kTO:checked+.styles-module_labelText__3LEwt:after {
+    -webkit-animation: styles-module_fadein__DUcY6 .2s;
+    animation: styles-module_fadein__DUcY6 .2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    background: var(--background) no-repeat center center url(../img/checked.svg);
 }

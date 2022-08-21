@@ -112,7 +112,7 @@
                                         </a>
                                     </li>
                                     <li class="main-nav__item">
-                                        <a href="payment-methods.php">
+                                        <a href="payment-methods/add.php">
                                             <div class="main-nav__icon">
                                                 <img src="../img/payment.svg" alt="">
                                             </div>
@@ -212,7 +212,7 @@
                         </div>
                         <div class="account-block__content">
                             <main class="container">
-                                <div class="orders-title">
+                                <div class="account-block__title">
                                     <div class="content-title">
                                         <a class="content-title__back" href="my-account.php">
                                             <img src="../img/profile-back.svg" alt="">
@@ -223,16 +223,34 @@
                                         <h1 class="content-title__h1">My orders</h1>
                                     </div>
                                 </div>
-                                <div class="orders-list">
-                                    <div class="container">
-                                        <div class="no-orders">
-                                            <img class="no-orders__icon" src="../img/no-orders.svg" alt="">
-                                            <h2 class="no-orders__h2">You currently have no orders</h2>
-                                            <p class="no-orders__p">Best get shopping ASOS pronto…</p>
-                                            <div class="no-orders__button">
-                                                <a href="">
-                                                    <span>Start shopping</span>
-                                                </a>
+                                <div class="orders-count">
+                                    Displaying 1 of 1 orders
+                                </div>
+                                <div class="account-block__main">
+                                    <div class="orders-list">
+                                        <div class="orders-list__item">
+                                            <div class="orders-list__header">
+                                                <div class="orders-list__info">
+                                                    <div class="orders-list__status">We'Ve Sent it!</div>
+                                                    <div class="orders-list__text">Estimenated delivery 28 jul, 2018</div>
+                                                </div>
+                                                <div class="orders-list__info">
+                                                    <div class="orders-list__h3">Order No.:</div>
+                                                    <div class="orders-list__text">34607336</div>
+                                                </div>
+                                                <div class="orders-list__info">
+                                                    <div class="orders-list__h3">Shipped date:</div>
+                                                    <div class="orders-list__text">28 jul, 2018</div>
+                                                </div>
+                                            </div>
+                                            <div class="orders-list__content">
+                                                <div class="orders-list__preview">
+                                                    <img src="../img/item-preview.webp" alt="">
+                                                </div>
+                                                <div class="orders-list__links">
+                                                    <a href="" class="orders-list__link">View order</a>
+                                                    <a href="" class="orders-list__link">Track order</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

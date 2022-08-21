@@ -1,0 +1,1020 @@
+#bagApp {
+    font-family: futura-pt-n4,futura-pt,"Futura PT",Futura,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#bagApp * {
+    box-sizing: border-box;
+    font-family: futura-pt-n4,futura-pt,"Futura PT",Futura,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#bagApp .bag-app {
+    color: #2d2d2d;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    margin-left: 0;
+    transition: margin-left .6s ease-in-out;
+}
+#bagApp .bag-app.is-recognised {
+    min-height: 438px;
+}
+#bagApp .bag-app .bag-holder {
+    margin: 0 auto;
+    -webkit-animation-name: bag-loading-fadein;
+    animation-name: bag-loading-fadein;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    display: flex;
+    flex-wrap: wrap;
+}
+#bagApp .bag-app .bag-holder--fadeout {
+    -webkit-animation-name: bag-loading-fadeout;
+    animation-name: bag-loading-fadeout;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+#bagApp .bag-app .bag-holder {
+    max-width: 960px;
+    min-width: 500px;
+    padding: 0 10px;
+}
+#bagApp .bag-app .bag-holder .bag-contents-holder {
+    display: inline-block;
+    padding: 0;
+    vertical-align: top;
+    width: 100%;
+}
+#bagApp .bag-app .bag-holder .bag-contents-holder-panel {
+    background-color: #fff;
+}
+#bagApp .bag-app .bag-holder .bag-contents-holder--animate {
+    -webkit-animation-name: bag-loading-fadein-delayed;
+    animation-name: bag-loading-fadein-delayed;
+    -webkit-animation-duration: 1.75s;
+    animation-duration: 1.75s;
+}
+
+/* Empty bag styles *Start* */
+#bagApp .bag-app .bag-holder--empty {
+    max-width: 100%;
+}
+#bagApp .bag-app .bag-holder .bag-contents-holder--empty {
+    width: 100%;
+    margin: 0;
+    padding: 50px 0 60px;
+}
+#bagApp .bag-app .bag-holder .empty-bag-contents-holder {
+    text-align: center;
+    padding: 40px 16px 30px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+#bagApp .bag-app .bag-holder .empty-bag-contents-holder {
+    max-width: 394px;
+}
+#bagApp .bag-app .bag-holder .empty-bag-contents-holder .empty-bag-title {
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.5px;
+    line-height: 22px;
+    letter-spacing: 2.5px;
+    color: #2d2d2d;
+    background-image: url(../img/bag-cart.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 44px;
+    margin: 0;
+}
+#bagApp .bag-app .bag-holder .empty-bag-contents-holder .bag-no-items-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #2d2d2d;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#bagApp .bag-app .bag-holder .empty-bag-contents-holder .bag-no-items-text {
+    letter-spacing: .4px;
+}
+#bagApp .bag-app .bag-holder .empty-bag-contents-holder .button-holder {
+    width: 288px;
+    margin: 0 auto;
+}
+#bagApp .bag-app .bag-error-holder .button-holder>a, #bagApp .bag-app .bag-error-holder .button-holder>button, #bagApp .bag-app .bag-holder .empty-bag-contents-holder .button-holder>button, #bagApp .bag-total-holder .bag-total-button, #bagApp .expired-item-item-button--cta, #bagApp .expired-items-list-main-cta, #bagApp .expired-items-modal-button--primary, #bagApp .expired-items-modal-button--secondary, html:not([data-platform=mobile]) #bagApp .bag-subscription-panel-footer-button, html[data-platform=mobile] #bagApp .bag-subscription-panel-footer-button {
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    letter-spacing: .0857142857em;
+    line-height: 1em;
+    margin: 0 auto;
+    max-width: 20.5714285714em;
+    padding: 1.0714285714em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+#bagApp .bag-app .bag-holder .empty-bag-contents-holder .button-holder>button, #bagApp .bag-total-holder .bag-total-button {
+    background: #018849;
+    color: #fff;
+}
+#bagApp .bag-app .bag-holder .empty-bag-contents-holder .empty-bag-start-shopping-button {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#bagApp .bag-app .bag-holder .empty-bag-contents-holder .empty-bag-start-shopping-button>a {
+    color: #2d2d2d;
+    text-decoration: underline;
+    font-size: 15px;
+}
+/* Empty bag styles *Stop* */
+
+/* Bag styles *Start* */
+#bagApp .bag-app.has-bag-items {
+    background-color: #eee;
+}
+#bagApp .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    border: 0;
+}
+#bagApp .bag-title--items-mobile {
+    display: none;
+}
+#bagApp .bag-total-holder--quickLink {
+    display: none;
+}
+#bagApp .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    border: 0;
+}
+#bagApp .bag-total-holder .bag-total-title-holder--subtotal {
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 6px;
+}
+#bagApp .bag-total-holder .bag-total-title-holder .bag-total-price {
+    float: right;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+#bagApp .bag-total-holder .bag-total-button-holder {
+    margin: 25px 0 0 0;
+}
+#bagApp .bag-total-holder .bag-total-button {
+    letter-spacing: 1.9px;
+    max-width: 100%;
+}
+#bagApp .bag-total-holder .bag-total-button--checkout {
+    text-decoration: none;
+}
+#bagApp .bag-messaging-holder {
+    font-family: futura-pt-n4,futura-pt,"Futura PT",Futura,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-animation-duration: .8s;
+    animation-duration: .8s;
+    -webkit-animation-name: bag-message-drawer-out;
+    animation-name: bag-message-drawer-out;
+    color: #2d2d2d;
+    letter-spacing: .4px;
+    max-height: initial;
+    position: relative;
+    z-index: 1;
+}
+#bagApp .bag-messaging-holder--marketing {
+    background-color: #cde2f5;
+}
+#bagApp .bag-messages-application .bag-messaging-holder {
+    letter-spacing: .6px;
+    text-align: center;
+    width: 100%;
+}
+#bagApp .bag-messaging-holder {
+    font-size: 14px;
+    top: 1px;
+}
+#bagApp .bag-messaging-icon {
+    padding-bottom: 13px;
+    padding-right: 13px;
+    padding-top: 15px;
+    position: relative;
+}
+#bagApp .bag-messages-application .bag-messaging-icon {
+    display: inline-block;
+    max-width: 940px;
+    padding-bottom: 18px;
+    padding-top: 20px;
+}
+#bagApp .bag-messaging-icon {
+    padding-left: 40px;
+}
+#bagApp .bag-messaging-icon:before {
+    border-radius: 50%;
+    font-size: .8em;
+    height: 14px;
+    line-height: 14px;
+    margin-top: -7px;
+    position: absolute;
+    text-align: center;
+    top: 49%;
+    width: 14px;
+}
+#bagApp .bag-messaging-holder .bag-messaging-icon:before {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: 3px 9px;
+    border: 2px solid #ffbc00;
+    color: #ffbc00;
+    content: '';
+}
+#bagApp .bag-messaging-holder--marketing .bag-messaging-icon:before {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2px 8px;
+    border: 2px solid #097ae1;
+    color: #097ae1;
+    content: '';
+}
+#bagApp .bag-messaging-icon:before {
+    left: 30px;
+}
+#bagApp .bag-messaging-icon .bag-messaging-displayText {
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0 24px 0 24px;
+}
+#bagApp .bag-messages-application .bag-messaging-icon .bag-messaging-displayText {
+    margin: 0 auto;
+    width: auto;
+}
+#bagApp .bag-app .bag-holder .bag-contents-wrapper {
+    -webkit-animation-name: bag-loading-fadein;
+    animation-name: bag-loading-fadein;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+#bagApp .bag-app .bag-holder .bag-contents-wrapper, #bagApp .bag-app .bag-holder .bag-secondary-content-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+#bagApp .bag-app .bag-holder .bag-contents-wrapper {
+    width: 60.6382978723%;
+}
+@media screen and (max-width: 869px) {
+    #bagApp .bag-app .bag-holder .bag-contents-wrapper {
+        width: 100%;
+    }
+}
+#bagApp .bag-app .bag-holder .bag-contents-holder .bag-title-holder {
+    padding: 24px 30px;
+    margin-bottom: 8px;
+}
+#bagApp .bag-app .bag-holder .bag-contents-holder .bag-title-holder .bag-title {
+    margin: 0;
+    font-size: 18px;
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    line-height: 22px;
+}
+#bagApp .bag-app .bag-holder .bag-contents-holder .bag-title-holder .bag-title--items {
+    display: inline-block;
+}
+#bagApp .bag-expiry-warning {
+    margin: 0;
+    float: right;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: .6px;
+}
+#bagApp .bag-expiry-warning--desktop {
+    display: inherit;
+}
+#bagApp .bag-groups {
+    padding: 0;
+}
+#bagApp .bag-group-holder {
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+#bagApp .bag-items {
+    padding: 0;
+}
+#bagApp .bag-item-holder {
+    font-size: 1.2em;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+#bagApp .bag-item-holder:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#bagApp .bag-item-holder {
+    padding: 0 30px;
+}
+#bagApp .deleteNotification {
+    display: none;
+}
+#bagApp .savedNotification {
+    display: none;
+}
+#bagApp .bag-item-padding {
+    padding-top: 20px;
+}
+#bagApp .bag-item-border {
+    padding-bottom: 20px;
+}
+#bagApp .bag-item-generic {
+    opacity: 0;
+}
+#bagApp .bag-item-generic--showing {
+    opacity: 1;
+}
+#bagApp .bag-item-container {
+    min-height: 140px;
+    position: relative;
+}
+#bagApp .bag-item-container {
+    padding-bottom: 20px;
+}
+#bagApp .bag-item-container--product {
+    padding-bottom: 0;
+}
+#bagApp .bag-item__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+#bagApp .bag-item-image {
+    height: 140px;
+    position: absolute;
+    top: 0;
+    vertical-align: top;
+    width: 110px;
+}
+#bagApp .bag-item__left .bag-item-image {
+    position: initial;
+}
+#bagApp .bag-item-image .bag-item-image-img {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+#bagApp .bag-item-descriptions {
+    padding-bottom: 0;
+    padding-left: 130px;
+    padding-top: 0;
+}
+#bagApp .bag-item-descriptions {
+    padding-right: 45px;
+}
+#bagApp .bag-item-price {
+    letter-spacing: 1.7px;
+}
+#bagApp .bag-item-price-holder {
+    line-height: .7em;
+    padding: 0 0 10px;
+}
+#bagApp .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    border: 0;
+}
+#bagApp .bag-item-price--current {
+    color: #2d2d2d;
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    padding-right: 0.3em;
+}
+#bagApp .bag-item-holder p {
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0 0 0.3em 0;
+}
+#bagApp p.bag-item-name {
+    color: #2d2d2d;
+    letter-spacing: .5px;
+    opacity: .9;
+    overflow: hidden;
+    padding: 0 25px 8px 0;
+}
+#bagApp p.bag-item-name {
+    font-size: 16px;
+    line-height: 1.5em;
+    max-height: 3.1em;
+}
+#bagApp p.bag-item-name>a {
+    color: #2d2d2d;
+    text-decoration: none;
+}
+#bagApp p.bag-item-name>a {
+    letter-spacing: .3px;
+}
+#bagApp .bag-item-colour {
+    border-right: 1px solid #eee;
+    display: inline-block;
+    margin: 0 3px 0 0;
+    padding: 0 8px 0 0;
+    color: #666;
+}
+#bagApp .bag-item-colour {
+    font-size: 14px;
+    letter-spacing: .6px;
+}
+#bagApp .bag-item-size-holder {
+    margin-right: 10px;
+}
+#bagApp .bag-item-selector {
+    max-width: 32%;
+    width: max-content;
+    padding: 0 20px 0 0;
+    margin: 0 6px 0 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    background-image: url(../img/dropdown-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right 11px center;
+    background-color: #fff;
+    font-size: .75em;
+    font-family: futura-pt-n4,futura-pt,"Futura PT",Futura,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: .4px;
+    color: #666;
+}
+.select2-container {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+}
+.select2-container {
+    font-family: futura-pt-n4,futura-pt,"Futura PT",Futura,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .3px;
+}
+#bagApp .select2-container {
+    padding: 5px 0 5px 2px;
+    letter-spacing: .6px;
+}
+#bagApp .bag-item-size-holder .select2-container {
+    width: auto!important;
+    max-width: 35%!important;
+}
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+#bagApp .select2-container--default .select2-selection--single {
+    border: none;
+    font-size: .75em;
+}
+#bagApp .bag-item-descriptions .select2-container--default .select2-selection--single {
+    border-radius: 0;
+    border: 0;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    display: block;
+    padding-left: 8px;
+    padding-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 28px;
+}
+#bagApp .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #666;
+}
+#bagApp .bag-item-descriptions .select2-container .select2-selection__rendered {
+    padding: 0 20px 0 0;
+}
+#bagApp .bag-item-descriptions .bag-item-size-holder .select2-container .select2-selection__rendered {
+    padding-right: 35px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 20px;
+}
+#bagApp .bag-item-descriptions .select2-container--default .select2-selection--single .select2-selection__arrow {
+    background-image: url(../img/dropdown-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    background-size: 9px 7px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #888 transparent transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    height: 0;
+    left: 50%;
+    margin-left: -4px;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
+#bagApp .bag-item-descriptions .select2-container--default .select2-selection--single .select2-selection__arrow>b {
+    display: none!important;
+}
+.bag-item-variants > span {
+    border-right: 1px solid #eee;
+}
+.bag-item-variants > .bag-item-quantity-holder {
+    border-right: none;
+}
+.bag-item-variants > span > .bag-item-variants {
+    background-position: right 0 center;
+}
+select {
+    cursor: pointer;
+}
+#bagApp .bag-item-variant--mobile {
+    display: none;
+}
+#bagApp .bag-item-quantity-holder {
+    display: inline-block;
+}
+#bagApp .bag-item-quantity-prefix {
+    cursor: pointer;
+    font-size: .75em;
+    letter-spacing: .6px;
+}
+#bagApp .bag-item-variant--mobile.bag-item-quantity--pre {
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+#bagApp .bag-item-moveToSaved {
+    background-image: url(../img/bag-save.svg);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: 8px center;
+    border: 1px solid #eee;
+    color: #2d2d2d;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: .4px;
+    margin-top: 4px;
+    padding: 6px 13px 6px 30px;
+    position: relative;
+}
+#bagApp .bag-item-moveToSaved {
+    background-image: url(../img/bag-save.svg);
+    background-repeat: no-repeat;
+}
+#bagApp .bag-item-moveToSaved:hover {
+    background-image: url(../img/bag-save-hover.svg);
+    background-repeat: no-repeat;
+}
+#bagApp .bag-item-actions-holder {
+    display: block;
+}
+#bagApp .bag-item-generic {
+    opacity: 0;
+}
+#bagApp .bag-item-generic--showing {
+    opacity: 1;
+}
+#bagApp .bag-item-remove, #bagApp .close-button, #bagApp .modal-close-button {
+    background-image: url(../img/bag-remove.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center center;
+    border: none;
+    cursor: pointer;
+    height: 16px;
+    overflow: hidden;
+    text-indent: 32px;
+    width: 16px;
+    padding: 0;
+}
+#bagApp .bag-item-remove {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+#bagApp .bag-app .bag-holder .bag-contents-holder .bag-subtotal {
+    letter-spacing: 2px;
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.375em;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: right;
+    margin: 8px 0 0;
+    padding: 24px 30px;
+}
+#bagApp .bag-app .bag-holder .bag-contents-holder .bag-subtotal .bag-subtotal-subtotal {
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+#bagApp .bag-app .bag-holder .bag-contents-holder .bag-subtotal .bag-subtotal-price {
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    display: inline-block;
+    min-width: 95px;
+}
+#bagApp .bag-app .bag-holder .bag-main-bottom-panel {
+    -webkit-animation-name: bag-loading-upin-delayed;
+    animation-name: bag-loading-upin-delayed;
+    -webkit-animation-duration: 1.75s;
+    animation-duration: 1.75s;
+}
+#bagApp .bag-expiry-warning--mobile {
+    display: none;
+}
+#bagApp .bag-panel-link {
+    text-decoration: none;
+    display: block;
+    color: #2d2d2d;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+}
+#bagApp .bag-panel-container {
+    font-family: futura-pt-n4,futura-pt,"Futura PT",Futura,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background: #fff;
+    margin: 8px 0 0;
+    padding: 23px 30px 23px 100px;
+    position: relative;
+    display: block;
+}
+#bagApp .bag-panel-container:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 30px;
+    top: 28px;
+    background-size: 36px;
+    background-position: center top;
+    height: 36px;
+    width: 36px;
+}
+#bagApp .bag-panel-container--delivery:before {
+    background-image: url(../img/bag-delivery.svg);
+    background-repeat: no-repeat;
+}
+#bagApp .bag-panel-title {
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0 0 3px;
+    text-transform: uppercase;
+}
+#bagApp .bag-panel-title {
+    line-height: 1.5em;
+}
+#bagApp .bag-panel-content {
+    letter-spacing: .4px;
+    line-height: 1.5em;
+    margin: 0;
+}
+#bagApp .bag-panel-content--underline {
+    text-decoration: underline;
+}
+
+/* Bag Secondary Content *Start* */
+#bagApp .bag-app .bag-holder .bag-contents-wrapper, #bagApp .bag-app .bag-holder .bag-secondary-content-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+}
+@media screen and (min-width: 870px) {
+    #bagApp .bag-app .bag-holder .bag-secondary-content-wrapper {
+        max-width: 370px;
+        padding-left: 10px;
+        transform: translate3d(0,0,0);
+        width: 39.3617021277%;
+    }
+}
+@media screen and (min-width: 870px) {
+    #bagApp .bag-app .bag-holder .bag-secondary-content-wrapper--fixed {
+        padding-right: 10px;
+        position: fixed;
+        width: 39.5833333333%;
+    }
+}
+@media screen and (min-width: 940px) {
+    #bagApp .bag-app .bag-holder .bag-secondary-content-wrapper--fixed {
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 869px) {
+    #bagApp .bag-app .bag-holder .bag-secondary-content-wrapper {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+#bagApp .bag-app .bag-holder .bag-contents-holder--total {
+    width: 100%;
+}
+#bagApp .bag-app .bag-holder .bag-contents-holder .bag-title-holder {
+    padding: 24px 30px;
+    margin-bottom: 8px;
+}
+#bagApp .bag-app .bag-holder .bag-contents-holder .bag-title-holder--total {
+    padding-bottom: 16px;
+    margin-bottom: 0;
+}
+#bagApp .bag-app .bag-holder .bag-contents-holder .bag-title-holder .bag-title--total {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 24px;
+    margin-bottom: 14px;
+}
+#bagApp .bag-total-holder .bag-total-title-holder {
+    letter-spacing: .5px;
+    margin: 0.8em 0;
+    font-size: 16px;
+}
+#bagApp .bag-total-holder .bag-total-title-holder--subtotal .bag-total-title {
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+#bagApp .bag-total-holder .bag-total-title-holder--delivery {
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+#bagApp .bag-total-holder .bag-total-title-holder--delivery>span {
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+#bagApp .bag-total-holder .bag-total-title-holder--delivery .bag-delivery-options-link {
+    right: 8px;
+    color: #999;
+    border: 2px solid #999;
+    background-image: url(../img/bag-info.svg);
+    background-repeat: no-repeat;
+    background-size: 2px 8px;
+    background-position: center;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    position: absolute;
+    line-height: 13px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: HelveticaNeue,HelveticaNeue,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+#bagApp .bag-total-holder .delivery-dropdown-holder {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #999;
+}
+#bagApp .bag-total-holder .delivery-dropdown-holder .bag-item-selector {
+    font-family: futura-pt-n4,futura-pt,"Futura PT",Futura,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0;
+    padding: 6px 0;
+    white-space: normal;
+}
+#bagApp .select2-container {
+    padding: 5px 0 5px 2px;
+    letter-spacing: .6px;
+}
+#bagApp .bag-total-holder .delivery-dropdown-holder .select2-container {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+}
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+#bagApp .select2-container--default .select2-selection--single {
+    border: none;
+    font-size: .75em;
+}
+#bagApp .bag-total-holder .delivery-dropdown-holder .select2-container .select2-selection--single .select2-selection__rendered {
+    padding-left: 0;
+    font-size: 1.34em;
+}
+#bagApp .bag-total-holder .bag-total-button-holder {
+    margin: 25px 0 0 0;
+}
+#bagApp .bag-app .bag-holder .empty-bag-contents-holder .button-holder>button, #bagApp .bag-total-holder .bag-total-button {
+    background: #018849;
+    color: #fff;
+}
+#bagApp .bag-total-holder .bag-total-button {
+    letter-spacing: 1.9px;
+    max-width: 100%;
+}
+#bagApp .bag-total-holder .bag-total-button--checkout {
+    text-decoration: none;
+}
+#bagApp .bag-payment-options {
+    padding: 0 30px 10px;
+}
+#bagApp .bag-payment-options-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+#bagApp .bag-payment-options-image {
+    max-width: 100%;
+    max-height: 20px;
+    margin-top: 10px;
+}
+#bagApp .bag-discount-message {
+    padding: 0 30px 30px;
+    letter-spacing: .4px;
+    font-size: 16px;
+}
+#bagApp .bag-view-saved-items-holder {
+    padding: 30px 0 20px 0;
+    max-width: 570px;
+}
+#bagApp .bag-view-saved-items-holder {
+    max-width: 940px;
+}
+#bagApp .bag-view-saved-items-holder {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    padding-bottom: 40px;
+}
+#bagApp .bag-view-saved-items-holder .bag-expired-items-header {
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    border-bottom: solid 1px #ddd;
+    color: #2d2d2d;
+    font-size: 18px;
+    letter-spacing: 2.5px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    margin-top: 0.83em;
+    max-width: 510px;
+    padding-bottom: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 100%;
+}
+#bagApp .bag-view-saved-items-holder .bag-expired-items-header {
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2d2d2d;
+    border-bottom: solid 1px #ddd;
+    width: 100%;
+    max-width: 510px;
+    text-align: left;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2.5px;
+    line-height: 22px;
+}
+#bagApp .bag-view-saved-items-holder .bag-expired-items-text {
+    color: #2d2d2d;
+    font-size: 16px;
+    letter-spacing: .4px;
+    line-height: 24px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    max-width: 570px;
+}
+#bagApp .bag-view-saved-items-holder .bag-expired-items-text {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .4px;
+    color: #2d2d2d;
+    max-width: 570px;
+}
+#bagApp .bag-view-saved-items-holder .view-saved-items-btn {
+    font-family: futura-pt-n7,futura-pt,"Futura PT","Futura Book",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13.5px;
+    letter-spacing: 1.6px;
+    text-align: center;
+    border: 2px solid silver;
+    color: #2d2d2d;
+    background: #eee;
+    display: inline-block;
+    text-decoration: none;
+    padding: 17px 30px 15px;
+    line-height: 1em;
+}
+@media screen and (max-width: 869px) {
+    #bagApp .bag-view-saved-items-holder {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+/* Bag Secondary Content *Stop* */
+
+.bag-item-selector--mobile {
+    display: none;
+}
+#bagApp .bag-app .bag-holder .empty-bag-contents-holder .button-holder>button:focus, #bagApp .bag-app .bag-holder .empty-bag-contents-holder .button-holder>button:hover, #bagApp .bag-total-holder .bag-total-button:focus, #bagApp .bag-total-holder .bag-total-button:hover {
+    background-color: #006637;
+}
+#bagApp .bag-item-quantity {
+    width: 100px;
+}
+/* Bag styles *Stop* */
+

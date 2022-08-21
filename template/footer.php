@@ -78,7 +78,7 @@
                 </section>
                 <section class="footer-shopping">
                     <h4 class="footer-h4">Shopping from:</h4>
-                    <button class="footer-shopping__btn" data-testid="country-selector-btn" type="button" aria-label="Shopping from: Ukraine. Choose Country"><span>You're in</span><img src="https://assets.asosservices.com/storesa/images/flags/ua.png" alt="Ukraine"><span>Change</span></button>
+                    <button class="footer-shopping__btn" data-testid="country-selector-btn" type="button" aria-label="Shopping from: Ukraine. Choose Country"><span>You're in</span><img src="img/flags/ru.png" alt="Russia"><span>Change</span></button>
                 </section>
             </div>
             </div>

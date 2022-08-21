@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My orders | ASOS</title>
+    <title>Contact preferences | ASOS</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon-32x32.png">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -112,7 +113,7 @@
                                         </a>
                                     </li>
                                     <li class="main-nav__item">
-                                        <a href="payment-methods.php">
+                                        <a href="payment-methods/add.php">
                                             <div class="main-nav__icon">
                                                 <img src="../img/payment.svg" alt="">
                                             </div>
@@ -212,7 +213,7 @@
                         </div>
                         <div class="account-block__content">
                             <main class="container">
-                                <div class="orders-title">
+                                <div class="account-block__title">
                                     <div class="content-title">
                                         <a class="content-title__back" href="my-account.php">
                                             <img src="../img/profile-back.svg" alt="">
@@ -223,7 +224,7 @@
                                         <h1 class="content-title__h1">Contact preferences</h1>
                                     </div>
                                 </div>
-                                <div class="orders-list">
+                                <div class="account-block__main">
                                     <div class="container">
                                     <div class="cardSectionStyles-module_panel__2BYiO cardSectionStyles-module_topPadding__2-YuN cardSectionStyles-module_bottomPadding__1cIlV cardSectionStyles-module_leftPadding__2Gv5Q cardSectionStyles-module_rightPadding__q-xLd" data-auto-id="card" data-testid="card"><h2 class="london2 styles-module_typographyHeader__1KAyb styles-module_typographyHeaderUppercase__3UaRd" data-testid="heading">Content types</h2><div class="_1yPBVv-fMGIaAPPpQqkiy3"><div class="xWt_ziCq0MPnXvniUVbFJ"><p class="leavesden2 styles-module_paragraph__3VR5Q" data-testid="paragraph">What would you like to hear about? Select your options below and we'll keep you in the loop.</p></div><button data-auto-id="contact-preferences-selection-all" type="button" class="button-module_button__LoxGZ button-module_tertiary__ilY3X button-module_small__d-9E5 london3-button _1o0x_Q8g6F8iY5JkRrTorZ"><span class="button-module_content__jG0if">Select All</span></button></div></div>
                                     <div><div class="cardSectionStyles-module_panel__2BYiO cardSectionStyles-module_leftPadding__2Gv5Q cardSectionStyles-module_rightPadding__q-xLd" data-auto-id="card" data-testid="card"><div class="styles-module_horizontalRule__ZuY1y styles-module_overspill__GXn5i" role="presentation"></div></div><div><div class="_1cOd8A9FmYE0khcsdQD30a" role="group" aria-labelledby="preferencepromos"><div><div><div class="DyC_aEN18O7SS__3PGQd3"><img class="j_YZXSU_kbEMaR9vx8I6-" alt="Discounts and sales" src="https://images.asos-media.com/navigation/gdpr_132x170_promos_high_res?wid=113&amp;hei=168&amp;fit=crop" srcset="https://images.asos-media.com/navigation/gdpr_132x170_promos_high_res?wid=113&amp;hei=168&amp;fit=crop, https://images.asos-media.com/navigation/gdpr_132x170_promos_high_res?wid=169.5&amp;hei=252&amp;fit=crop 1.5x,

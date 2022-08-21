@@ -9,14 +9,7 @@
     }
 </style>
 <section class="main-section">
-    <div class="container">
-        <h1 class="main-section__background">
-            <span class="main-section__loading"></span>
-            <picture>
-                <source srcset="img/mm-main-section-background.avif" media="(max-width: 768px)">
-                <img src="img/main-section-background.avif" alt="">
-            </picture>
-        </h1>
+    <div class="container" style="background-image: url(img/main-section-background.jpg);">
         <div class="main-section__center">
             <div class="container">
                 <h2 class="main-section__title">
@@ -47,17 +40,16 @@
                             <img src="" alt="">
                         </span>
                         <span>
-                            <p>EASY WORLDWIDE DELIVERY</p>
-                            <p>*minimum spends apply</p>
+                            <p class="message__top">EASY WORLDWIDE DELIVERY</p>
+                            <p class="message__bottom">*minimum spends apply</p>
                         </span>
                     </a>
                     <div class="main-section__message">
-                        <span>
+                        <span style="display: none;">
                             <img src="" alt="">
                         </span>
                         <span>
-                            <p>ASOS DESIGN and 850+ brands</p>
-                            <p></p>
+                            <p class="message__top">ASOS DESIGN and 850+ brands</p>
                         </span>
                     </div>
                 </div>

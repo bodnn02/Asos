@@ -385,25 +385,3 @@ input:focus {
 .btn-disabled {
     pointer-events: none;
 }
-
-@media (max-width: 719px) {
-    .content-title__p {
-        display: none;
-    }
-    .account-block__content {
-        margin: 0 20px;
-    }
-    .account-block__nav {
-        display: none;
-    }
-    .account-block__content {
-        display: block;
-        width: 100%;
-    }
-    .content-title__icon {
-        display: none;
-    }
-    .content-title__h1 {
-        text-align: center;
-    }
-}

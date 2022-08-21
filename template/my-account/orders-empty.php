@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/account.css">
-    <link rel="stylesheet" href="../css/payment-methods.css">
+    <link rel="stylesheet" href="../css/orders.css">
 </head>
 <body>
     <div class="account-page">
@@ -69,7 +69,7 @@
                                     </li>
                                 </ul>
                                 <ul class="main-nav__list">
-                                    <li class="main-nav__item">
+                                    <li class="main-nav__item main-nav__item_selected">
                                         <a href="orders.php">
                                             <div class="main-nav__icon">
                                                 <img src="../img/packages.svg" alt="">
@@ -111,8 +111,8 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <li class="main-nav__item main-nav__item_selected">
-                                        <a href="payment-methods.php">
+                                    <li class="main-nav__item">
+                                        <a href="payment-methods/add.php">
                                             <div class="main-nav__icon">
                                                 <img src="../img/payment.svg" alt="">
                                             </div>
@@ -212,26 +212,26 @@
                         </div>
                         <div class="account-block__content">
                             <main class="container">
-                                <div class="orders-title">
+                                <div class="account-block__title">
                                     <div class="content-title">
                                         <a class="content-title__back" href="my-account.php">
                                             <img src="../img/profile-back.svg" alt="">
                                         </a>
                                         <span class="content-title__icon">
-                                            <img src="../img/payment.svg" alt="">
+                                            <img src="../img/packages.svg" alt="">
                                         </span>
-                                        <h1 class="content-title__h1">Add payment method</h1>
+                                        <h1 class="content-title__h1">My orders</h1>
                                     </div>
                                 </div>
-                                <div class="orders-list">
+                                <div class="account-block__main">
                                     <div class="container">
-                                        <div class="no-orders">
-                                            <img class="no-orders__icon" src="../img/address.svg" alt="">
-                                            <h2 class="no-orders__h2">You need a billing address</h2>
-                                            <p class="no-orders__p">You currently have no saved address. Without one, you won't be able to add a new payment method.</p>
-                                            <div class="no-orders__button">
+                                        <div class="content-wrapper">
+                                            <img class="content-wrapper__icon" src="../img/no-orders.svg" alt="">
+                                            <h2 class="content-wrapper__h2">You currently have no orders</h2>
+                                            <p class="content-wrapper__p">Best get shopping ASOS pronto…</p>
+                                            <div class="content-wrapper__button">
                                                 <a href="">
-                                                    <span>Add New Address</span>
+                                                    <span>Start shopping</span>
                                                 </a>
                                             </div>
                                         </div>

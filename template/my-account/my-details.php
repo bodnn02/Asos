@@ -112,7 +112,7 @@
                                         </a>
                                     </li>
                                     <li class="main-nav__item">
-                                        <a href="payment-methods.php">
+                                        <a href="payment-methods/add.php">
                                             <div class="main-nav__icon">
                                                 <img src="../img/payment.svg" alt="">
                                             </div>

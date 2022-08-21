@@ -112,7 +112,7 @@
                                         </a>
                                     </li>
                                     <li class="main-nav__item">
-                                        <a href="payment-methods.php">
+                                        <a href="payment-methods/add.php">
                                             <div class="main-nav__icon">
                                                 <img src="../img/payment.svg" alt="">
                                             </div>
@@ -212,7 +212,7 @@
                         </div>
                         <div class="account-block__content">
                             <main class="container">
-                                <div class="orders-title">
+                                <div class="account-block__title">
                                     <div class="content-title">
                                         <a class="content-title__back" href="my-account.php">
                                             <img src="../img/profile-back.svg" alt="">
@@ -223,18 +223,18 @@
                                         <h1 class="content-title__h1">Gift cards & vouchers</h1>
                                     </div>
                                 </div>
-                                <div class="orders-list">
+                                <div class="account-block__main">
                                     <div class="container">
-                                        <div class="no-orders">
-                                            <img class="no-orders__icon" src="../img/gift.svg" alt="">
-                                            <h2 class="no-orders__h2">YOU HAVE NO VOUCHERS YET</h2>
-                                            <p class="no-orders__p">You currently have no vouchers linked to your account. Get started by redeeming or buying one now.</p>
-                                            <div class="no-orders__button">
+                                        <div class="content-wrapper">
+                                            <img class="content-wrapper__icon" src="../img/gift.svg" alt="">
+                                            <h2 class="content-wrapper__h2">YOU HAVE NO VOUCHERS YET</h2>
+                                            <p class="content-wrapper__p">You currently have no vouchers linked to your account. Get started by redeeming or buying one now.</p>
+                                            <div class="content-wrapper__button">
                                                 <a href="">
                                                     <span>Add gift card​/voucher</span>
                                                 </a>
                                             </div>
-                                            <div class="no-orders__button gift-cards__button">
+                                            <div class="content-wrapper__button gift-cards__button">
                                                 <a href="">
                                                     <span>Buy gift voucher</span>
                                                 </a>

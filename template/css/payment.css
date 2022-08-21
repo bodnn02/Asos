@@ -1,0 +1,1470 @@
+/* Header *Start* */
+.l-page>header {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    width: 940px;
+    padding: 1.063rem 30px 0.813rem;
+}
+a:visited {
+    color: #2d2d2d;
+}
+.l-page>header .logo {
+    float: left;
+    margin: 0.563rem 0 0;
+}
+.l-page>header .logo {
+    display: block;
+    height: 30px;
+    width: 100px;
+    background-image: none,url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 100px 30px;
+}
+.is-hidden-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.is-hidden-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.l-page>header .logo span {
+    display: block;
+}
+.wf-futurapt-bold-active h1 {
+    font-size: 1.625rem;
+}
+.l-page>header h1 {
+    display: inline-block;
+    margin: 0.75rem 0 0;
+}
+.l-page .digi-cert-seal {
+    float: right;
+    margin-left: 10px;
+    margin-top: 3px;
+    width: 75px;
+}
+.l-page .digi-cert-seal img {
+    width: 75px!important;
+}
+
+/* Header *Stop* */
+
+/* Main *Start* */
+.l-page main {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 940px;
+}
+.l-page main>.l-lc {
+    float: left;
+    width: 570px;
+}
+.l-page .l-card {
+    background: #fff;
+    overflow: hidden;
+    margin: 0.625rem 0;
+    padding: 1.25rem 20px;
+}
+.l-page .l-lc.is-card-animator>*, .l-page .l-rc.is-card-animator>* {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    transition: opacity 1s ease-in-out,transform 1s ease-in-out;
+}
+.l-page .l-lc.is-card-animator>:not(.is-disabled), .l-page .l-rc.is-card-animator>:not(.is-disabled) {
+    -webkit-animation-name: fadeIn-animation;
+    animation-name: fadeIn-animation;
+    opacity: 1;
+}
+.l-page .l-lc.is-card-animator>:first-of-type, .l-page .l-rc.is-card-animator>:first-of-type {
+    -webkit-animation-name: fadeIn-animation,slideUp-animation;
+    animation-name: fadeIn-animation,slideUp-animation;
+}
+.payment-methods .divider-text, h1, h2, h3, h4, h5, main>.is-loading .content {
+    text-transform: uppercase;
+}
+.payment-methods .divider-text, h2, h3, h4, main>.is-loading .content {
+    letter-spacing: .156rem;
+}
+h2 {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0.375rem 0;
+}
+.wf-futurapt-bold-active h2 {
+    font-size: 1.125rem;
+}
+.l-page .l-card>.expandable-heading-container>h2, .l-page .l-card>.l-field, .l-page .l-card>h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.delivery-country h2:after {
+    content: ":";
+}
+.l-field {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 1.625rem 0 0;
+}
+.delivery-country .l-field {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.813rem;
+}
+.l-page .l-card>.expandable-heading-container>h2, .l-page .l-card>.l-field, .l-page .l-card>h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+label, legend, span.replay-label {
+    color: #999;
+    cursor: default;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+label, legend, span.replay-label {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .75rem;
+    font-weight: 700;
+    margin: 0 0 0.688rem;
+}
+.is-screen-reader-text {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.is-screen-reader-text {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.wf-futurapt-bold-active label, .wf-futurapt-bold-active legend, .wf-futurapt-bold-active span.replay-label {
+    font-size: .875rem;
+}
+label:after, legend:after, span.replay-label:after {
+    content: ":";
+}
+.select>div, .select>div:after, .select>div:before {
+    box-sizing: border-box;
+}
+.delivery-country .select>div {
+    display: inline-block;
+}
+.delivery-country .input-container {
+    align-items: center;
+    display: flex;
+}
+.delivery-country .country-image {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    background-image: url(../images/shared/flags/empty-flag-image.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+button, select {
+    text-transform: none;
+}
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    border: 1px solid #999;
+    display: block;
+    outline: 0;
+    margin: 0;
+}
+select {
+    padding: 0.688rem 11px;
+}
+.l-field .length-feedback-input, .l-field input[type=email], .l-field input[type=password], .l-field input[type=tel], .l-field input[type=text], .l-field select, .l-field textarea {
+    background-color: #fff;
+    float: left;
+    width: 330px;
+}
+.l-field input[type=email], .l-field input[type=password], .l-field input[type=tel], .l-field input[type=text], .l-field select {
+    height: 2.8rem;
+}
+.l-field .length-feedback-input, .l-field input[type=email], .l-field input[type=password], .l-field input[type=tel], .l-field input[type=text], .l-field select, .l-field textarea {
+    background-color: #fff;
+    float: left;
+    width: 330px;
+}
+.l-field input[type=email], .l-field input[type=password], .l-field input[type=tel], .l-field input[type=text], .l-field select {
+    height: 2.8rem;
+}
+.select>div:after {
+    background-color: rgba(255,255,255,.85);
+    background-image: url(../img/dropdown-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    content: "";
+    height: 16px;
+    right: 10px;
+    position: absolute;
+    width: 20px;
+    pointer-events: none;
+}
+.select>div:after {
+    display: inline-block;
+    top: 1rem;
+}
+.delivery-country .select>div:after {
+    left: 355px;
+}
+.mask-overlay {
+    background-color: rgba(255,255,255,.85);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    width: 100%;
+}
+.l-page .l-lc.is-card-animator>*, .l-page .l-rc.is-card-animator>* {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    transition: opacity 1s ease-in-out,transform 1s ease-in-out;
+}
+.l-page .l-lc.is-card-animator>:not(.is-disabled), .l-page .l-rc.is-card-animator>:not(.is-disabled) {
+    -webkit-animation-name: fadeIn-animation;
+    animation-name: fadeIn-animation;
+    opacity: 1;
+}
+.mask-overlay {
+    background-color: rgba(255,255,255,.85);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    width: 100%;
+}
+.l-page .l-lc.is-card-animator>*, .l-page .l-rc.is-card-animator>* {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    transition: opacity 1s ease-in-out,transform 1s ease-in-out;
+}
+.l-page .l-lc.is-card-animator>:not(.is-disabled), .l-page .l-rc.is-card-animator>:not(.is-disabled) {
+    -webkit-animation-name: fadeIn-animation;
+    animation-name: fadeIn-animation;
+    opacity: 1;
+}
+.l-page .l-card {
+    background: #fff;
+    overflow: hidden;
+    margin: 0.625rem 0;
+    padding: 1.25rem 20px;
+}
+.l-page .l-expandable {
+    position: relative;
+}
+.discount-and-vouchers>.expandable-heading-container {
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.l-page .l-expandable>.expandable-heading-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.l-page .l-expandable>.expandable-heading-container .header {
+    cursor: pointer;
+    flex: 1 0;
+}
+.wf-futurapt-bold-active h2 {
+    font-size: 1.125rem;
+}
+.l-page .l-expandable>.expandable-heading-container .header h2 {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .75rem;
+    font-weight: 700;
+}
+.wf-futurapt-bold-active .l-page .l-expandable>.expandable-heading-container .header h2 {
+    font-size: .875rem;
+}
+.l-page .l-expandable>.expandable-heading-container::after {
+    cursor: pointer;
+    flex: 0 0 16px;
+    content: url(../img/expand-block.svg);
+}
+.mask-overlay {
+    background-color: rgba(255,255,255,.85);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    width: 100%;
+}
+.l-page .l-card {
+    background: #fff;
+    overflow: hidden;
+    margin: 0.625rem 0;
+    padding: 1.25rem 20px;
+}
+.email-address.l-card {
+    overflow: visible;
+}
+.l-page .l-lc.is-card-animator>*, .l-page .l-rc.is-card-animator>* {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    transition: opacity 1s ease-in-out,transform 1s ease-in-out;
+}
+.l-page .l-lc.is-card-animator>:not(.is-disabled), .l-page .l-rc.is-card-animator>:not(.is-disabled) {
+    -webkit-animation-name: fadeIn-animation;
+    animation-name: fadeIn-animation;
+    opacity: 1;
+}
+.wf-futurapt-bold-active h2 {
+    font-size: 1.125rem;
+}
+.l-page .l-card>.expandable-heading-container>h2, .l-page .l-card>.l-field, .l-page .l-card>h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.email-address .replay-label:after {
+    content: "";
+}
+.l-field {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 1.625rem 0 0;
+}
+.discount-and-vouchers .l-tabbed-dialog {
+    margin: 1.125rem 0 0;
+}
+.l-page .l-tabbed-dialog nav {
+    width: 100%;
+    margin: 0 0 1.5rem;
+}
+.l-page .l-tabbed-dialog nav ul {
+    border-bottom: 1px solid #999;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 2px;
+}
+.discount-and-vouchers nav li {
+    min-width: 184px;
+}
+.l-page .l-tabbed-dialog nav li {
+    flex: 1 0 auto;
+    max-width: 245px;
+    max-height: 70px;
+    text-align: center;
+}
+.discount-and-vouchers nav li.is-active {
+    border: 1px solid #999;
+    border-bottom: 2px solid #fff;
+}
+.l-page .l-tabbed-dialog nav li.is-active {
+    background-color: #fff;
+    border-left: 1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: none;
+    bottom: -1px;
+    position: relative;
+}
+.payment-methods .divider-text, h1, h2, h3, h4, h5, main>.is-loading .content {
+    text-transform: uppercase;
+}
+.payment-methods .divider-text, h2, h3, h4, main>.is-loading .content {
+    letter-spacing: .156rem;
+}
+.payment-methods .divider-text, h3, h4, main>.is-loading .content {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .875rem;
+    font-weight: 700;
+}
+.payment-methods .divider-text, h4, main>.is-loading .content {
+    margin: 0 0 0.75rem;
+}
+.payment-methods .wf-futurapt-bold-active .divider-text, .wf-futurapt-bold-active .payment-methods .divider-text, .wf-futurapt-bold-active h3, .wf-futurapt-bold-active h4, .wf-futurapt-bold-active main>.is-loading .content, main>.is-loading .wf-futurapt-bold-active .content {
+    font-size: 1rem;
+}
+.discount-and-vouchers .payment-methods .divider-text, .discount-and-vouchers h4, .discount-and-vouchers main>.is-loading .content, .payment-methods .discount-and-vouchers .divider-text, main>.is-loading .discount-and-vouchers .content {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .75rem;
+    font-weight: 700;
+}
+.payment-methods .wf-futurapt-bold-active .discount-and-vouchers .divider-text, .wf-futurapt-bold-active .discount-and-vouchers .payment-methods .divider-text, .wf-futurapt-bold-active .discount-and-vouchers h4, .wf-futurapt-bold-active .discount-and-vouchers main>.is-loading .content, main>.is-loading .wf-futurapt-bold-active .discount-and-vouchers .content {
+    font-size: .875rem;
+}
+.discount-and-vouchers .add-discount .payment-methods .divider-text, .discount-and-vouchers .add-discount h4, .discount-and-vouchers .add-discount main>.is-loading .content, .discount-and-vouchers .add-voucher .payment-methods .divider-text, .discount-and-vouchers .add-voucher h4, .discount-and-vouchers .add-voucher main>.is-loading .content, .payment-methods .discount-and-vouchers .add-discount .divider-text, .payment-methods .discount-and-vouchers .add-voucher .divider-text, main>.is-loading .discount-and-vouchers .add-discount .content, main>.is-loading .discount-and-vouchers .add-voucher .content {
+    margin: 0.5rem 0 1.25rem;
+}
+.l-page .l-tabbed-dialog nav li .payment-methods .divider-text, .l-page .l-tabbed-dialog nav li h4, .l-page .l-tabbed-dialog nav li main>.is-loading .content, .payment-methods .l-page .l-tabbed-dialog nav li .divider-text, main>.is-loading .l-page .l-tabbed-dialog nav li .content {
+    margin: 0;
+}
+.discount-and-vouchers nav li a {
+    background-position: 25px 50%;
+    display: block;
+    letter-spacing: .125rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.71rem 16px 1.438rem;
+}
+.discount-and-vouchers nav li.add-discount a {
+    padding: 1.12rem 16px 1rem;
+}
+
+.btn.close, .btn.close:before, .icon, .icon:before, .modal-dialog .modal-close, .modal-dialog .modal-close:before {
+    background-repeat: no-repeat;
+    display: block;
+}
+.btn.close, .btn.close:before, .icon, .icon:before, .modal-dialog .modal-close, .modal-dialog .modal-close:before {
+    background-repeat: no-repeat;
+    display: block;
+}
+.icon-tag {
+    background-image: url(../img/checkout-promo.svg);
+}
+.discount-and-vouchers nav li.add-discount span {
+    background-position-y: 50%;
+    padding-left: 30px;
+}
+.email-address .l-field {
+    margin-top: 0.875rem;
+    word-break: break-all;
+}
+.l-page .l-card>.expandable-heading-container>h2, .l-page .l-card>.l-field, .l-page .l-card>h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.replay-value {
+    display: block;
+}
+.l-field .replay-value {
+    float: left;
+    margin: 0.25rem 0 0;
+}
+.l-field .replay-value {
+    float: left;
+    margin: 0.25rem 0 0;
+}
+.mask-overlay {
+    background-color: rgba(255,255,255,.85);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    width: 100%;
+}
+.l-page .l-card {
+    background: #fff;
+    overflow: hidden;
+    margin: 0.625rem 0;
+    padding: 1.25rem 20px;
+}
+.delivery-address.l-card {
+    overflow: visible;
+}
+.l-page .l-lc.is-card-animator>*, .l-page .l-rc.is-card-animator>* {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    transition: opacity 1s ease-in-out,transform 1s ease-in-out;
+}
+.l-page .l-lc.is-card-animator>:not(.is-disabled), .l-page .l-rc.is-card-animator>:not(.is-disabled) {
+    -webkit-animation-name: fadeIn-animation;
+    animation-name: fadeIn-animation;
+    opacity: 1;
+}
+.wf-futurapt-bold-active h2 {
+    font-size: 1.125rem;
+}
+.l-page .l-card>.expandable-heading-container>h2, .l-page .l-card>.l-field, .l-page .l-card>h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.delivery-address .l-tabbed-dialog {
+    margin: 1.187rem 0 0;
+}
+.l-page .l-tabbed-dialog nav {
+    width: 100%;
+    margin: 0 0 1.5rem;
+}
+.l-page .l-tabbed-dialog nav ul {
+    border-bottom: 1px solid #999;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 2px;
+}
+.delivery-address nav li {
+    position: relative;
+}
+.delivery-address nav li {
+    min-width: 235px;
+}
+.discount-and-vouchers nav li {
+    min-width: 184px;
+}
+.l-page .l-tabbed-dialog nav li {
+    flex: 1 0 auto;
+    max-width: 245px;
+    max-height: 70px;
+    text-align: center;
+}
+.l-page .l-tabbed-dialog nav li.is-active {
+    background-color: #fff;
+    border-left: 1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: none;
+    bottom: -1px;
+    position: relative;
+}
+.payment-methods .divider-text, h1, h2, h3, h4, h5, main>.is-loading .content {
+    text-transform: uppercase;
+}
+.payment-methods .divider-text, h2, h3, h4, main>.is-loading .content {
+    letter-spacing: .156rem;
+}
+.payment-methods .divider-text, h3, h4, main>.is-loading .content {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .875rem;
+    font-weight: 700;
+}
+.payment-methods .divider-text, h4, main>.is-loading .content {
+    margin: 0 0 0.75rem;
+}
+.payment-methods .wf-futurapt-bold-active .divider-text, .wf-futurapt-bold-active .payment-methods .divider-text, .wf-futurapt-bold-active h3, .wf-futurapt-bold-active h4, .wf-futurapt-bold-active main>.is-loading .content, main>.is-loading .wf-futurapt-bold-active .content {
+    font-size: 1rem;
+}
+.l-page .l-tabbed-dialog nav li .payment-methods .divider-text, .l-page .l-tabbed-dialog nav li h4, .l-page .l-tabbed-dialog nav li main>.is-loading .content, .payment-methods .l-page .l-tabbed-dialog nav li .divider-text, main>.is-loading .l-page .l-tabbed-dialog nav li .content {
+    margin: 0;
+}
+.delivery-address nav li a {
+    display: block;
+    letter-spacing: .125rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .75rem;
+    font-weight: 700;
+    padding: 1.25rem 0 1rem 24px;
+}
+.wf-futurapt-bold-active .delivery-address nav li a {
+    font-size: .875rem;
+}
+.btn.close, .btn.close:before, .icon, .icon:before, .modal-dialog .modal-close, .modal-dialog .modal-close:before {
+    background-repeat: no-repeat;
+    display: block;
+}
+.btn.close, .btn.close:before, .icon, .icon:before, .modal-dialog .modal-close, .modal-dialog .modal-close:before {
+    background-repeat: no-repeat;
+    display: block;
+}
+.icon-home {
+    background-image: url(../img/icon-home.svg);
+}
+.delivery-address nav li a .btn.close, .delivery-address nav li a .icon, .delivery-address nav li a .modal-dialog .modal-close, .modal-dialog .delivery-address nav li a .modal-close {
+    background-position: 0 50%;
+    width: 100%;
+}
+.delivery-address nav li a .btn.close, .delivery-address nav li a .icon, .delivery-address nav li a .modal-dialog .modal-close, .modal-dialog .delivery-address nav li a .modal-close {
+    line-height: 32px;
+}
+.delivery-address nav li a .btn.close, .delivery-address nav li a .icon, .delivery-address nav li a .modal-dialog .modal-close, .modal-dialog .delivery-address nav li a .modal-close {
+    background-position: 0 50%;
+    width: 100%;
+}
+.delivery-address nav li {
+    position: relative;
+}
+.delivery-address nav li {
+    min-width: 235px;
+}
+.l-page .l-tabbed-dialog nav li {
+    flex: 1 0 auto;
+    max-width: 245px;
+    max-height: 70px;
+    text-align: center;
+}
+.icon-pin {
+    background-image: url(../img/delivery-address.svg);
+}
+.l-page .l-tabbed-dialog nav+div {
+    -webkit-animation: fadeInTabAnimation .5s;
+    animation: fadeInTabAnimation .5s;
+}
+.l-page .l-heading-with-button {
+    display: inline-block;
+    min-height: 1.875rem;
+    width: 100%;
+}
+.payment-methods .divider-text, h1, h2, h3, h4, h5, main>.is-loading .content {
+    text-transform: uppercase;
+}
+.payment-methods .divider-text, h2, h3, h4, main>.is-loading .content {
+    letter-spacing: .156rem;
+}
+.payment-methods .divider-text, h3, h4, main>.is-loading .content {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .875rem;
+    font-weight: 700;
+}
+.payment-methods .divider-text, h4, main>.is-loading .content {
+    margin: 0 0 0.75rem;
+}
+.payment-methods .wf-futurapt-bold-active .divider-text, .wf-futurapt-bold-active .payment-methods .divider-text, .wf-futurapt-bold-active h3, .wf-futurapt-bold-active h4, .wf-futurapt-bold-active main>.is-loading .content, main>.is-loading .wf-futurapt-bold-active .content {
+    font-size: 1rem;
+}
+.address .payment-methods .divider-text, .address h4, .address main>.is-loading .content, .payment-methods .address .divider-text, main>.is-loading .address .content {
+    color: #2d2d2d;
+    margin: 0;
+    letter-spacing: .125rem;
+    padding: 0 10px;
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .875rem;
+    font-weight: 700;
+}
+.l-page .l-heading-with-button>h4, .l-page .payment-methods .l-heading-with-button>.divider-text, .l-page main>.is-loading .l-heading-with-button>.content, .payment-methods .l-page .l-heading-with-button>.divider-text, main>.is-loading .l-page .l-heading-with-button>.content {
+    float: left;
+}
+.payment-methods .wf-futurapt-bold-active .address .divider-text, .wf-futurapt-bold-active .address .payment-methods .divider-text, .wf-futurapt-bold-active .address h4, .wf-futurapt-bold-active .address main>.is-loading .content, main>.is-loading .wf-futurapt-bold-active .address .content {
+    font-size: 1rem;
+}
+.l-field {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 1.625rem 0 0;
+}
+.l-field {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 1.625rem 0 0;
+}
+.address-entry .l-field {
+    padding: 0 10px;
+}
+.address-entry .l-field:first-child {
+    margin-top: 0.438rem;
+}
+label, legend, span.replay-label {
+    color: #999;
+    cursor: default;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+label, legend, span.replay-label {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .75rem;
+    font-weight: 700;
+    margin: 0 0 0.688rem;
+}
+.wf-futurapt-bold-active label, .wf-futurapt-bold-active legend, .wf-futurapt-bold-active span.replay-label {
+    font-size: .875rem;
+}
+label:after, legend:after, span.replay-label:after {
+    content: ":";
+}
+input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text] {
+    -webkit-appearance: none;
+    border-radius: 0;
+    border: 1px solid #999;
+    display: block;
+    outline: 0;
+    margin: 0;
+}
+input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text] {
+    padding: 0.688rem 11px;
+}
+.l-field .length-feedback-input, .l-field input[type=email], .l-field input[type=password], .l-field input[type=tel], .l-field input[type=text], .l-field select, .l-field textarea {
+    background-color: #fff;
+    float: left;
+    width: 330px;
+}
+.l-field input[type=email], .l-field input[type=password], .l-field input[type=tel], .l-field input[type=text], .l-field select {
+    height: 2.8rem;
+}
+.l-field .length-feedback-input, .l-field input[type=email], .l-field input[type=password], .l-field input[type=tel], .l-field input[type=text], .l-field select, .l-field textarea {
+    background-color: #fff;
+    float: left;
+    width: 330px;
+}
+.l-field input[type=email], .l-field input[type=password], .l-field input[type=tel], .l-field input[type=text], .l-field select {
+    height: 2.8rem;
+}
+.autocomplete {
+    position: relative;
+}
+.address-finder.autocomplete {
+    width: 330px;
+}
+.icon-find {
+    background-image: url(../img/address-finder.svg);
+}
+input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text] {
+    -webkit-appearance: none;
+    border-radius: 0;
+    border: 1px solid #999;
+    display: block;
+    outline: 0;
+    margin: 0;
+}
+input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text] {
+    padding: 0.688rem 11px;
+}
+.address-finder input {
+    background-size: 14px;
+    background-position: 10px 50%;
+    padding-left: 32px;
+    padding-right: 60px;
+}
+.l-field .length-feedback-input, .l-field input[type=email], .l-field input[type=password], .l-field input[type=tel], .l-field input[type=text], .l-field select, .l-field textarea {
+    background-color: #fff;
+    float: left;
+    width: 330px;
+}
+.l-field input[type=email], .l-field input[type=password], .l-field input[type=tel], .l-field input[type=text], .l-field select {
+    height: 2.8rem;
+}
+.l-field .length-feedback-input, .l-field input[type=email], .l-field input[type=password], .l-field input[type=tel], .l-field input[type=text], .l-field select, .l-field textarea {
+    background-color: #fff;
+    float: left;
+    width: 330px;
+}
+.l-field input[type=email], .l-field input[type=password], .l-field input[type=tel], .l-field input[type=text], .l-field select {
+    height: 2.8rem;
+}
+.address-finder input:placeholder-shown {
+    padding-right: 0;
+}
+.address-entry .l-field {
+    padding: 0 10px;
+}
+label, legend, span.replay-label {
+    color: #999;
+    cursor: default;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+label, legend, span.replay-label {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .75rem;
+    font-weight: 700;
+    margin: 0 0 0.688rem;
+}
+.wf-futurapt-bold-active label, .wf-futurapt-bold-active legend, .wf-futurapt-bold-active span.replay-label {
+    font-size: .875rem;
+}
+label:after, legend:after, span.replay-label:after {
+    content: ":";
+}
+.replay-value {
+    display: block;
+}
+.l-field .replay-value {
+    float: left;
+    margin: 0.25rem 0 0;
+}
+.address-entry .l-field {
+    padding: 0 10px;
+}
+.address-entry .address-manual-entry {
+    border-top: 1px solid #eee;
+    margin-top: 24px;
+    padding-top: 22px;
+    padding-bottom: 8px;
+}
+a {
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    color: #2d2d2d;
+}
+.l-page .l-card {
+    background: #fff;
+    overflow: hidden;
+    margin: 0.625rem 0;
+    padding: 1.25rem 20px;
+}
+.l-page .l-lc.is-card-animator>*, .l-page .l-rc.is-card-animator>* {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    transition: opacity 1s ease-in-out,transform 1s ease-in-out;
+}
+.l-page .l-card.is-disabled {
+    background: 0 0;
+    border: 1px solid #ddd;
+    cursor: default;
+}
+.wf-futurapt-bold-active h2 {
+    font-size: 1.125rem;
+}
+.delivery-options h2 {
+    margin-bottom: 1.5rem;
+}
+.l-page .l-card>.expandable-heading-container>h2, .l-page .l-card>.l-field, .l-page .l-card>h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.l-page .l-card.is-disabled h2 {
+    color: #ddd;
+}
+.l-page .l-card.is-disabled .l-field, .l-page .l-card.is-disabled .l-tabbed-dialog, .l-page .l-card.is-disabled h2 {
+    margin: 0;
+}
+.delivery-options>div {
+    padding-left: 0;
+}
+.l-page .l-lc.is-card-animator>*, .l-page .l-rc.is-card-animator>* {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    transition: opacity 1s ease-in-out,transform 1s ease-in-out;
+}
+.l-page .l-lc.is-card-animator>:not(.is-disabled), .l-page .l-rc.is-card-animator>:not(.is-disabled) {
+    -webkit-animation-name: fadeIn-animation;
+    animation-name: fadeIn-animation;
+    opacity: 1;
+}
+.payment {
+    overflow: visible;
+}
+.l-page .l-card {
+    background: #fff;
+    overflow: hidden;
+    margin: 0.625rem 0;
+    padding: 1.25rem 20px;
+}
+.payment.l-card {
+    overflow: visible;
+}
+.l-page .l-card.is-disabled {
+    background: 0 0;
+    border: 1px solid #ddd;
+    cursor: default;
+}
+.wf-futurapt-bold-active h2 {
+    font-size: 1.125rem;
+}
+.payment>h2 {
+    letter-spacing: .125rem;
+    padding: 0 0.313rem;
+    margin-bottom: 1rem;
+    margin-top: 0.188rem;
+}
+.l-page .l-card>.expandable-heading-container>h2, .l-page .l-card>.l-field, .l-page .l-card>h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.l-page .l-card.is-disabled h2 {
+    color: #ddd;
+}
+.l-page .l-card.is-disabled .l-field, .l-page .l-card.is-disabled .l-tabbed-dialog, .l-page .l-card.is-disabled h2 {
+    margin: 0;
+}
+.payment+.payment-marketing-image {
+    display: none;
+}
+div.place-order {
+    padding: 1.375rem 30px;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+button, select {
+    text-transform: none;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button {
+    border-radius: 0;
+}
+button[disabled], html input[disabled] {
+    cursor: default;
+}
+.btn.cta, .modal-dialog .cta.modal-close {
+    display: block;
+    letter-spacing: .125rem;
+}
+.btn.cta, .modal-dialog .cta.modal-close {
+    background-color: #018849;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color .15s linear;
+    vertical-align: middle;
+    padding: 0.313rem 5%;
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .875rem;
+    font-weight: 700;
+    padding: 0.75rem;
+    margin: 0 0 1.5rem;
+}
+.modal-dialog div.place-order .modal-close, div.place-order .btn, div.place-order .modal-dialog .modal-close {
+    width: 100%;
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.btn.cta.is-disabled, .modal-dialog .cta.is-disabled.modal-close {
+    cursor: default;
+}
+.modal-dialog .wf-futurapt-bold-active .cta.modal-close, .wf-futurapt-bold-active .btn.cta, .wf-futurapt-bold-active .modal-dialog .cta.modal-close {
+    font-size: 1rem;
+}
+.btn.cta.is-disabled, .modal-dialog .cta.is-disabled.modal-close {
+    background-color: #aaddc5;
+    border: none;
+    color: #cceede;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color .15s linear;
+    vertical-align: middle;
+    padding: 0.313rem 5%;
+    padding: 0.75rem;
+    margin: 0 0 1.5rem;
+}
+.modal-dialog .wf-futurapt-bold-active div.place-order .modal-close, .wf-futurapt-bold-active div.place-order .btn, .wf-futurapt-bold-active div.place-order .modal-dialog .modal-close {
+    font-size: 1.25rem;
+}
+div.place-order span.tandc {
+    color: #666;
+    display: block;
+    letter-spacing: .025rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.875rem;
+    align-self: flex-start;
+}
+div.place-order span.tandc a {
+    color: #666;
+    text-decoration: underline;
+    border-bottom: 1px solid #666;
+    transition: border-color .15s ease-out;
+    text-decoration: none;
+}
+.l-page main>.l-rc {
+    float: right;
+    width: 360px;
+}
+.l-page .l-card {
+    background: #fff;
+    overflow: hidden;
+    margin: 0.625rem 0;
+    padding: 1.25rem 20px;
+}
+.l-page .l-lc.is-card-animator>*, .l-page .l-rc.is-card-animator>* {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    transition: opacity 1s ease-in-out,transform 1s ease-in-out;
+}
+.l-page .l-rc .l-card {
+    padding: 0;
+    background: 0 0;
+}
+.l-page .l-lc.is-card-animator>:not(.is-disabled), .l-page .l-rc.is-card-animator>:not(.is-disabled) {
+    -webkit-animation-name: fadeIn-animation;
+    animation-name: fadeIn-animation;
+    opacity: 1;
+}
+.l-page .l-lc.is-card-animator>:first-of-type, .l-page .l-rc.is-card-animator>:first-of-type {
+    -webkit-animation-name: fadeIn-animation,slideUp-animation;
+    animation-name: fadeIn-animation,slideUp-animation;
+}
+.l-page .l-rc .l-card .l-card-inner {
+    background: #fff;
+    padding: 1.25rem;
+}
+.bag .bag-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 1.188rem;
+}
+.payment-methods .divider-text, h1, h2, h3, h4, h5, main>.is-loading .content {
+    text-transform: uppercase;
+}
+.payment-methods .divider-text, h2, h3, h4, main>.is-loading .content {
+    letter-spacing: .156rem;
+}
+h2 {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0.375rem 0;
+}
+.wf-futurapt-bold-active h2 {
+    font-size: 1.125rem;
+}
+.bag .bag-header>* {
+    flex: 0 1 auto;
+}
+.bag .bag-header h2 {
+    line-height: 2.125rem;
+    margin: 0;
+}
+.bag .bag-header>* {
+    flex: 0 1 auto;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+.l-page hr {
+    background-color: #eee;
+    border: none;
+    height: 1px;
+}
+.bag hr {
+    background-color: #eee;
+    border: none;
+    height: 1px;
+}
+.item-list {
+    margin-left: 10px;
+    position: relative;
+    margin-top: 1.875rem;
+    padding-bottom: 0.938rem;
+}
+.item-list>.items-wrapper {
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+.item-list>.items-wrapper.one {
+    margin-bottom: 0.625rem;
+    height: 6.875rem;
+}
+.item-list>.items-wrapper>.items {
+    bottom: 0;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+@supports selector(::-webkit-scrollbar) {
+    .item-list>.items-wrapper>.items {
+        overflow-y: auto;
+    }
+}
+.item {
+    display: flex;
+    padding: 0;
+    margin-top: 1.563rem;
+}
+.item:first-child {
+    margin-top: 0;
+}
+.item>img {
+    flex: 0 0 85px;
+    height: 110px;
+    width: 85px;
+}
+.item>div {
+    color: #666;
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+    margin: 0 0 0 0.688rem;
+}
+.item .item-price {
+    margin: 0;
+    padding: 0 0.625rem;
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: .813rem;
+    letter-spacing: 1.6px;
+}
+.product-item .item-price {
+    display: block;
+    margin: 0 0 0.5rem;
+}
+.wf-futurapt-bold-active .item .item-price {
+    font-size: .875rem;
+}
+.item .item-description {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+    margin: 0.313rem 0 0.938rem;
+    padding: 0 0.625rem;
+}
+.product-item .item-description {
+    margin: -0.188rem 0 0.25rem;
+    display: inline-block;
+}
+@supports (-webkit-line-clamp:2) {
+    .product-item .item-description {
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        max-height: 3rem;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+.wf-futurapt-normal-active .item .item-description {
+    font-size: .875rem;
+}
+.product-item .item-options-wrapper {
+    color: #666;
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .875rem;
+    font-weight: 400;
+}
+.wf-futurapt-normal-active .product-item .item-options-wrapper {
+    font-size: 1rem;
+}
+.item .item-options-wrapper .item-colour, .item .item-options-wrapper .item-size {
+    color: #666;
+    float: left;
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: .938rem;
+    padding: 0 0.625rem;
+}
+.wf-futurapt-bold-active .item .item-options-wrapper .item-colour, .wf-futurapt-bold-active .item .item-options-wrapper .item-size {
+    font-size: .875rem;
+}
+.item .item-options-wrapper .item-colour::after, .item .item-options-wrapper .item-size::after {
+    content: " ";
+}
+.item .item-quantity {
+    clear: left;
+    display: inline-block;
+    float: left;
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .875rem;
+    font-weight: 400;
+    padding: 0.188rem 0.625rem;
+}
+.wf-futurapt-normal-active .item .item-quantity {
+    font-size: 1rem;
+}
+.bag-totals {
+    color: #2d2d2d;
+    margin-bottom: 0.313rem;
+}
+.bag-totals hr {
+    background-color: #eee;
+    border: none;
+    height: 1px;
+    margin: 0.25rem 0 1.563rem;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.bag-totals table {
+    width: 100%;
+}
+.is-screen-reader-text {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+td, th {
+    padding: 0;
+}
+.bag-totals tfoot {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .875rem;
+    font-weight: 700;
+}
+.wf-futurapt-bold-active .bag-totals tfoot {
+    font-size: 1rem;
+}
+.bag-totals tbody td {
+    padding: 0 0 1.25rem;
+}
+.bag-totals table .l-ltc {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 60%;
+    align-items: center;
+}
+.bag-totals tbody .l-ltc {
+    display: flex;
+    width: auto;
+}
+/* Main *Stop* */
+
+/* Footer *Start* */
+
+.l-page>footer {
+    background: #fff;
+    padding: 1rem 0;
+}
+.l-page>footer {
+    padding: 1.563rem 0 1.625rem;
+}
+.l-page>footer ul {
+    text-align: center;
+}
+.l-page>footer li {
+    display: inline-block;
+    white-space: nowrap;
+}
+.l-page>footer li a {
+    margin: 0 30px;
+    color: #2d2d2d;
+    letter-spacing: .013rem;
+}
+.l-page>footer li::after {
+    content: "|";
+    color: #eee;
+}
+.l-page>footer li:last-of-type::after {
+    content: "";
+}
+.icon-gift {
+    background-image: url(../img/icon-gift.svg);
+}
+.discount-and-vouchers nav li.add-voucher span {
+    background-position-x: 13px;
+}
+.l-page .l-tabbed-dialog nav+div {
+    -webkit-animation: fadeInTabAnimation .5s;
+    animation: fadeInTabAnimation .5s;
+}
+.payment-methods .divider-text, h1, h2, h3, h4, h5, main>.is-loading .content {
+    text-transform: uppercase;
+}
+.payment-methods .divider-text, h2, h3, h4, main>.is-loading .content {
+    letter-spacing: .156rem;
+}
+.payment-methods .divider-text, h3, h4, main>.is-loading .content {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .875rem;
+    font-weight: 700;
+}
+.payment-methods .divider-text, h4, main>.is-loading .content {
+    margin: 0 0 0.75rem;
+}
+.payment-methods .wf-futurapt-bold-active .divider-text, .wf-futurapt-bold-active .payment-methods .divider-text, .wf-futurapt-bold-active h3, .wf-futurapt-bold-active h4, .wf-futurapt-bold-active main>.is-loading .content, main>.is-loading .wf-futurapt-bold-active .content {
+    font-size: 1rem;
+}
+.discount-and-vouchers .payment-methods .divider-text, .discount-and-vouchers h4, .discount-and-vouchers main>.is-loading .content, .payment-methods .discount-and-vouchers .divider-text, main>.is-loading .discount-and-vouchers .content {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .75rem;
+    font-weight: 700;
+}
+.payment-methods .wf-futurapt-bold-active .discount-and-vouchers .divider-text, .wf-futurapt-bold-active .discount-and-vouchers .payment-methods .divider-text, .wf-futurapt-bold-active .discount-and-vouchers h4, .wf-futurapt-bold-active .discount-and-vouchers main>.is-loading .content, main>.is-loading .wf-futurapt-bold-active .discount-and-vouchers .content {
+    font-size: .875rem;
+}
+.discount-and-vouchers .add-discount .payment-methods .divider-text, .discount-and-vouchers .add-discount h4, .discount-and-vouchers .add-discount main>.is-loading .content, .discount-and-vouchers .add-voucher .payment-methods .divider-text, .discount-and-vouchers .add-voucher h4, .discount-and-vouchers .add-voucher main>.is-loading .content, .payment-methods .discount-and-vouchers .add-discount .divider-text, .payment-methods .discount-and-vouchers .add-voucher .divider-text, main>.is-loading .discount-and-vouchers .add-discount .content, main>.is-loading .discount-and-vouchers .add-voucher .content {
+    margin: 0.5rem 0 1.25rem;
+}
+.discount-and-vouchers .add-discount>.discount-voucher-wrapper>div, .discount-and-vouchers .add-discount>div>h4, .discount-and-vouchers .add-discount>div>ul, .discount-and-vouchers .add-voucher>.discount-voucher-wrapper>div, .discount-and-vouchers .add-voucher>div>h4, .discount-and-vouchers .add-voucher>div>ul, .discount-and-vouchers .payment-methods .add-discount>div>.divider-text, .discount-and-vouchers .payment-methods .add-voucher>div>.divider-text, .discount-and-vouchers main>.is-loading .add-discount>div>.content, .discount-and-vouchers main>.is-loading .add-voucher>div>.content, .payment-methods .discount-and-vouchers .add-discount>div>.divider-text, .payment-methods .discount-and-vouchers .add-voucher>div>.divider-text, main>.is-loading .discount-and-vouchers .add-discount>div>.content, main>.is-loading .discount-and-vouchers .add-voucher>div>.content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.discount-and-vouchers .l-field {
+    margin-top: 0.25rem;
+    margin-bottom: 1.5rem;
+}
+.discount-and-vouchers .add-discount>.discount-voucher-wrapper>div, .discount-and-vouchers .add-discount>div>h4, .discount-and-vouchers .add-discount>div>ul, .discount-and-vouchers .add-voucher>.discount-voucher-wrapper>div, .discount-and-vouchers .add-voucher>div>h4, .discount-and-vouchers .add-voucher>div>ul, .discount-and-vouchers .payment-methods .add-discount>div>.divider-text, .discount-and-vouchers .payment-methods .add-voucher>div>.divider-text, .discount-and-vouchers main>.is-loading .add-discount>div>.content, .discount-and-vouchers main>.is-loading .add-voucher>div>.content, .payment-methods .discount-and-vouchers .add-discount>div>.divider-text, .payment-methods .discount-and-vouchers .add-voucher>div>.divider-text, main>.is-loading .discount-and-vouchers .add-discount>div>.content, main>.is-loading .discount-and-vouchers .add-voucher>div>.content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+label, legend, span.replay-label {
+    color: #999;
+    cursor: default;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+label, legend, span.replay-label {
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .75rem;
+    font-weight: 700;
+    margin: 0 0 0.688rem;
+}
+.wf-futurapt-bold-active label, .wf-futurapt-bold-active legend, .wf-futurapt-bold-active span.replay-label {
+    font-size: .875rem;
+}
+label:after, legend:after, span.replay-label:after {
+    content: ":";
+}
+input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text] {
+    -webkit-appearance: none;
+    border-radius: 0;
+    border: 1px solid #999;
+    display: block;
+    outline: 0;
+    margin: 0;
+}
+input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text] {
+    padding: 0.688rem 11px;
+}
+.l-field .length-feedback-input, .l-field input[type=email], .l-field input[type=password], .l-field input[type=tel], .l-field input[type=text], .l-field select, .l-field textarea {
+    background-color: #fff;
+    float: left;
+    width: 330px;
+}
+.l-field input[type=email], .l-field input[type=password], .l-field input[type=tel], .l-field input[type=text], .l-field select {
+    height: 2.8rem;
+}
+.l-field .length-feedback-input, .l-field input[type=email], .l-field input[type=password], .l-field input[type=tel], .l-field input[type=text], .l-field select, .l-field textarea {
+    background-color: #fff;
+    float: left;
+    width: 330px;
+}
+.l-field input[type=email], .l-field input[type=password], .l-field input[type=tel], .l-field input[type=text], .l-field select {
+    height: 2.8rem;
+}
+.discount-and-vouchers .add-discount input[type=text], .discount-and-vouchers .add-voucher input[type=text] {
+    margin-right: 10px;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+button, select {
+    text-transform: none;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button {
+    border-radius: 0;
+}
+.l-field .btn, .l-field .modal-dialog .modal-close, .modal-dialog .l-field .modal-close {
+    float: right;
+}
+.btn.primary, .modal-dialog .primary.modal-close {
+    letter-spacing: .125rem;
+    white-space: normal;
+}
+.btn.primary, .modal-dialog .primary.modal-close {
+    background-color: #2d2d2d;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color .15s linear;
+    vertical-align: middle;
+    padding: 0.313rem 5%;
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .875rem;
+    font-weight: 700;
+    padding: 0.75rem;
+}
+.l-field .btn, .l-field .modal-dialog .modal-close, .modal-dialog .l-field .modal-close {
+    float: right;
+}
+.modal-dialog .wf-futurapt-bold-active .primary.modal-close, .wf-futurapt-bold-active .btn.primary, .wf-futurapt-bold-active .modal-dialog .primary.modal-close {
+    font-size: 1rem;
+}
+.discount-and-vouchers .add-discount .btn.primary, .discount-and-vouchers .add-discount .modal-dialog .primary.modal-close, .discount-and-vouchers .add-voucher .btn.primary, .discount-and-vouchers .add-voucher .modal-dialog .primary.modal-close, .modal-dialog .discount-and-vouchers .add-discount .primary.modal-close, .modal-dialog .discount-and-vouchers .add-voucher .primary.modal-close {
+    float: none;
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 170px;
+}
+.discount-and-vouchers .need-to-know {
+    padding-top: 1rem;
+}
+.discount-and-vouchers .add-discount>.discount-voucher-wrapper>div, .discount-and-vouchers .add-discount>div>h4, .discount-and-vouchers .add-discount>div>ul, .discount-and-vouchers .add-voucher>.discount-voucher-wrapper>div, .discount-and-vouchers .add-voucher>div>h4, .discount-and-vouchers .add-voucher>div>ul, .discount-and-vouchers .payment-methods .add-discount>div>.divider-text, .discount-and-vouchers .payment-methods .add-voucher>div>.divider-text, .discount-and-vouchers main>.is-loading .add-discount>div>.content, .discount-and-vouchers main>.is-loading .add-voucher>div>.content, .payment-methods .discount-and-vouchers .add-discount>div>.divider-text, .payment-methods .discount-and-vouchers .add-voucher>div>.divider-text, main>.is-loading .discount-and-vouchers .add-discount>div>.content, main>.is-loading .discount-and-vouchers .add-voucher>div>.content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.discount-and-vouchers .add-discount ul li, .discount-and-vouchers .add-voucher ul li {
+    list-style: disc;
+    margin-left: 18px;
+    padding-left: 4px;
+    line-height: 1.5rem;
+    margin-bottom: 1.563rem;
+}
+/* Footer *Stop */

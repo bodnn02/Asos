@@ -1,11 +1,24 @@
 $(".header-search__input").on("click", function(e) {
-    $(".header-search__overlay").toggle();
+    $(".header-search__overlay").show();
+    if($(this).val().length > 1){
+        $(this).parent().find(".search-results").addClass("search-results_active");
+    }
+});
+$(".header-search__input").on('input', function() { 
+    if($(this).val().length > 1)
+    {
+        $(this).parent().find(".search-results").addClass("search-results_active");
+    }
+    else {
+        $(this).parent().find(".search-results").removeClass("search-results_active");
+    }
+});
+$(".header-search__overlay").on("click", function(e) {
+    $(this).hide();
+    $(this).parent().find(".search-results").removeClass("search-results_active");
 });
 $(".header-widgets__search").parent().on("click", function(e) {
     $(".search-overlay").show();
-});
-$(".search-overlay__close").parent().on("click", function(e) {
-    $(".search-overlay").hide();
 });
 $(".mm-category > button").on("click", function(e) {
     $(".mm-sublist__item[data-id="+$(this).parent().attr('data-id')+"]").parent(".mm-sublist__section").parent("mm-sublist").addClass("active");
@@ -58,7 +71,9 @@ $(".preferences-overlay__close").on("click", function(e) {
         height: 'auto'
     });
 });
-
+$(".search-overlay__close").on("click", function(e) {
+    $(".search-overlay").hide();
+});
 $("button[data-id=mm-women-btn]").on("click", function(e) {
     $(".mm-sections").children(".mm-sections__item").removeClass("mm-sections__item_active");
     $(this).parent().addClass("mm-sections__item_active");
@@ -70,4 +85,26 @@ $("button[data-id=mm-men-btn]").on("click", function(e) {
     $(this).parent().addClass("mm-sections__item_active");
     $(".mm-section[data-id=mm-women-section]").hide();
     $(".mm-section[data-id=mm-men-section]").show();
+});
+$(".header-dropdown__close").on("click", function(e) {
+    $(this).parent().parent().parent().addClass("noHover");
+});
+$(".header-widgets__item > button").hover(function(e) {
+    $(this).parent().find(".noHover").removeClass("noHover");
+});
+$(".header-widgets__item > a").hover(function(e) {
+    $(this).parent().find(".noHover").removeClass("noHover");
+});
+var scrollPos = 0;
+$(window).scroll(function(){
+   var st = $(this).scrollTop();
+   if (st > scrollPos){
+    $(".header").removeClass("headroom headroom--pinned headroom--scrolled");
+   } else {
+     $(".header").addClass("headroom headroom--pinned headroom--scrolled");
+     if ($(this).scrollTop() == 0) {
+        $(".header").removeClass("headroom headroom--pinned headroom--scrolled");
+    }
+   }
+   scrollPos = st;
 });

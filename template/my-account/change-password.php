@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My orders | ASOS</title>
+    <title>Change Password | ASOS</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon-32x32.png">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -112,7 +113,7 @@
                                         </a>
                                     </li>
                                     <li class="main-nav__item">
-                                        <a href="payment-methods.php">
+                                        <a href="payment-methods/add.php">
                                             <div class="main-nav__icon">
                                                 <img src="../img/payment.svg" alt="">
                                             </div>
@@ -303,5 +304,6 @@
             </div>
         </div>
     </div>
+    <script src="../js/auth.js"></script>
 </body>
 </html>

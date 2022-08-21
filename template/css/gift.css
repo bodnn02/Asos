@@ -1,27 +1,12 @@
-@media (max-width: 719px) {
-    .account-block__nav {
-        display: none;
-    }
-    .account-block__content {
-        display: block;
-        width: 100%;
-    }
-    .content-title__icon {
-        display: none;
-    }
-    .content-title__h1 {
-        text-align: center;
-    }
-}
 .gift-cards__button > a {
     background: var(--1e93okh);
     margin-top: 12px;
 }
-.no-orders__icon {
+.content-wrapper__icon {
     display: inline-block;
     width: 40px;
 }
-.no-orders__h2,.no-orders__p {
+.content-wrapper__h2,.content-wrapper__p {
     margin-top: 15px;
 }
 .cardListStyles-module_cardListItem__3AXxv {
