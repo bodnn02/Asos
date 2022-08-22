@@ -37,7 +37,6 @@
 }
 #bagApp .bag-app .bag-holder {
     max-width: 960px;
-    min-width: 500px;
     padding: 0 10px;
 }
 #bagApp .bag-app .bag-holder .bag-contents-holder {
@@ -1016,5 +1015,30 @@ select {
 #bagApp .bag-item-quantity {
     width: 100px;
 }
+
 /* Bag styles *Stop* */
 
+@media (max-width: 500px) {
+    .bag-contents-holder--items > .bag-title-holder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bag-item-variants {
+        display: flex;
+        flex-direction: column;
+
+    }
+    #bagApp .bag-item-quantity {
+         width: unset;
+    }
+    .bag-item-variants > span, #bagApp .bag-item-colour {
+        border: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .bag-item-variants {
+        display: none;
+    }
+}
